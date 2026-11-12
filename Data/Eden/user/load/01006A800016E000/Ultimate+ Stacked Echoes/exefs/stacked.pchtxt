@@ -1,0 +1,7 @@
+@nsobid-21450C647B8C5940ED5B68218EA128FD3C5D597D
+# Ultimate+ - use Stacked when the roster reads the Echo Fighters preference.
+@flag offset_shift 0x100
+@enabled
+0182C450 09008052
+018394E0 09008052
+@stop

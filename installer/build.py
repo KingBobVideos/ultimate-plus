@@ -20,6 +20,8 @@ for folder in (
     "atmosphere/contents/01006A800016E000",
 ):
     shutil.copytree(source / "user/sdmc" / folder, sd / folder)
+echo_patch = Path("user/load/01006A800016E000/Ultimate+ Stacked Echoes")
+shutil.copytree(root / "Data/Eden" / echo_patch, eden / echo_patch)
 for filename in ("eden.exe", "LICENSE.txt", "README.md"):
     shutil.copy2(source / filename, eden / filename)
 shutil.copytree(source / "LICENSES", eden / "LICENSES")
