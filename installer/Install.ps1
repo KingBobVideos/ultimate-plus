@@ -10,6 +10,24 @@ $sd=Join-Path $UserFolder "sdmc"
 $ready=Join-Path $UserFolder "ultimate-plus-installed.txt"
 $version=(Get-FileHash -LiteralPath (Join-Path $PSScriptRoot "parts.sha256")).Hash
 if(Get-Process eden -ErrorAction SilentlyContinue | Where-Object Path -eq $exe){throw "Ultimate+ Eden is already open."}
+if(!$SetupOnly){
+ $savedGame=Join-Path $UserFolder 'smash-game.txt'
+ $game=$env:ULTIMATE_PLUS_GAME
+ if(!$game -and [IO.File]::Exists($savedGame)){$game=[IO.File]::ReadAllText($savedGame)}
+ if(!$game -or ![IO.File]::Exists($game)){
+  Add-Type -AssemblyName System.Windows.Forms
+  $picker=New-Object System.Windows.Forms.OpenFileDialog
+  $picker.Title='Choose your Super Smash Bros. Ultimate base game'
+  $picker.Filter='Switch base game (*.xci;*.nsp)|*.xci;*.nsp'
+  try{
+   if($picker.ShowDialog() -ne 'OK'){return}
+   $game=$picker.FileName
+  }finally{$picker.Dispose()}
+ }
+ $game=(Get-Item -LiteralPath $game -ErrorAction Stop).FullName
+ if([IO.Path]::GetExtension($game) -notin '.xci','.nsp'){throw 'Select your Smash base game (.xci or .nsp).'}
+ [IO.File]::WriteAllText($savedGame,$game)
+}
 if(!(Test-Path -LiteralPath $ready) -or [IO.File]::ReadAllText($ready) -ne $version){
 Write-Host "Preparing Ultimate+ in this folder. Checking downloads..."
 $backup=Join-Path $UserFolder ("UltimatePlus Backup "+[guid]::NewGuid())
@@ -47,4 +65,4 @@ Write-Host "Ultimate+ installed. Any replaced files were backed up under $backup
 
 [IO.File]::WriteAllText($ready,$version)
 }
-if(!$SetupOnly){Start-Process -FilePath $exe -WorkingDirectory $eden}
+if(!$SetupOnly){Start-Process -FilePath $exe -WorkingDirectory $eden -ArgumentList ('"'+$game+'"')}

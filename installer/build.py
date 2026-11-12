@@ -62,4 +62,5 @@ portable=release/'Eden'
 (portable/'user/sdmc').mkdir(parents=True,exist_ok=True)
 for item in ['eden.exe','LICENSE.txt','README.md']:
  shutil.copy2(eden/item,portable/item)
-shutil.copytree(eden/'LICENSES',portable/'LICENSES',dirs_exist_ok=True)(release/'release-tag.txt').write_text('v'+package.name.removeprefix('UltimatePlus-'))
+shutil.copytree(eden/'LICENSES',portable/'LICENSES',dirs_exist_ok=True)
+(release/'release-tag.txt').write_text('v'+package.name.removeprefix('UltimatePlus-'))
