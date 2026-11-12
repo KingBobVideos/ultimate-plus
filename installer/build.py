@@ -27,3 +27,6 @@ for filename in ("eden.exe", "LICENSE.txt", "README.md"):
 shutil.copytree(source / "LICENSES", eden / "LICENSES")
 shutil.copy2(root / "Data/Update.ps1", target / "Data/Update.ps1")
 shutil.copy2(root / "Update Ultimate+.cmd", target / "Update Ultimate+.cmd")
+
+for name in ("Play Ultimate+.cmd", "Data/Play.ps1", "Data/SmashContent.json"):
+    shutil.copy2(root / name, target / name)
