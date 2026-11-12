@@ -1,0 +1,4 @@
+display_name="Empty Barrels"
+version="1.0"
+category="Gameplay"
+description="All barrel contents tables produce zero items. Explosive contents roll disabled. Carrying and throwing unchanged."

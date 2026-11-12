@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmsbt>
+  <entry label="nam_chr0_00_waluigi">
+    <text>Waluigi</text>
+  </entry>
+  <entry label="nam_chr1_00_waluigi">
+    <text>Waluigi</text>
+  </entry>
+  <entry label="nam_chr2_00_waluigi">
+    <text>WALUIGI</text>
+  </entry>
+  <entry label="nam_chr3_00_waluigi">
+    <text>WALUIGI</text>
+  </entry>
+  <entry label="nam_stage_name_00_waluigi">
+    <text>The Notorious
+Cheater</text>
+  </entry>
+  <entry label="nam_special_lower_00_waluigi">
+    <text>Destruction Dance</text>
+  </entry>
+  <entry label="nam_special_lower_help_00_waluigi">
+    <text>Dashes forward with 4 indicators above his head.
+Inputing one of the given options will have Waluigi
+perform a unique attack or animation.</text>
+  </entry>
+  <entry label="nam_special_normal_00_waluigi">
+    <text>Dice Block</text>
+  </entry>
+  <entry label="nam_special_normal_help_00_waluigi">
+    <text>Waluigi throws a dice block forwards.The dice block
+will travel until it hits an opponent or explodes. It 
+will do different types of damage based on the number.</text>
+  </entry>
+  <entry label="nam_special_side_00_waluigi">
+    <text>Peekaboo / Swim</text>
+  </entry>
+  <entry label="nam_special_side_help_00_waluigi">
+    <text>On the ground, Boo appears and stuns any opponent in
+its path. In the air, Waluigi swims forwards and will dive
+down if you input the special button again.</text>
+  </entry>
+  <entry label="nam_special_upper_00_waluigi">
+    <text>Whirluigi</text>
+  </entry>
+  <entry label="nam_special_upper_help_00_waluigi">
+    <text>Spins around while flying upwards. Any nearby
+opponents will get caught in the whirl and get
+launched at the end.</text>
+  </entry>
+  <entry label="nam_final_arts_waluigi">
+    <text>Negative Zone</text>
+  </entry>
+  <entry label="nam_final_arts_help_waluigi">
+    <text>A giant orb spawns around Waluigi as he dances. Any
+opponents caught in the zone will be put to sleep for a set
+amount of time until the dance is completed.</text>
+  </entry>
+</xmsbt>

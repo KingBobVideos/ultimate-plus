@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmsbt>
+  <entry label="nam_chr0_00_papermario">
+    <text>Paper Mario</text>
+  </entry>
+  <entry label="nam_chr1_00_papermario">
+    <text>Paper Mario</text>
+  </entry>
+  <entry label="nam_chr2_00_papermario">
+    <text>PAPER MARIO</text>
+  </entry>
+  <entry label="nam_chr3_00_papermario">
+    <text>PAPER MARIO</text>
+  </entry>
+  <entry label="nam_stage_name_00_papermario">
+    <text>The Great
+Gonzales</text>
+  </entry>
+  <entry label="nam_chr1_12_papermario">
+    <text>Pa_er Mario</text>
+  </entry>
+  <entry label="nam_chr2_12_papermario">
+    <text>PA_ER MARIO</text>
+  </entry>
+  <entry label="nam_stage_name_12_papermario">
+    <text>Nameless Shadow of
+Twilight Town</text>
+  </entry>
+  <entry label="nam_chr1_15_papermario">
+    <text>Paper Luigi</text>
+  </entry>
+  <entry label="nam_chr2_15_papermario">
+    <text>PAPER LUIGI</text>
+  </entry>
+  <entry label="nam_stage_name_15_papermario">
+    <text>Savior of the
+Waffle Kingdom</text>
+  </entry>
+   <entry label="nam_peculiar_00_papermario">
+    <text>Partners and Flower Power</text>
+  </entry>
+   <entry label="nam_peculiar_01_papermario">
+    <text>Partners 1-4</text>
+  </entry>
+   <entry label="nam_peculiar_02_papermario">
+    <text>Partners 5-8</text>
+  </entry>
+  <entry label="nam_peculiar_help_00_papermario">
+    <text>
+Each partner Paper Mario can summon with his neutral special
+can only be used 3 times before they disappear. Keep track of 
+how many uses you have left by paying attention to the Flower Points
+above Paper Mario's head.
+
+If you've used up a partner fully, don't worry! They'll come 
+back if Paper Mario loses a stock.
+
+If a partner gets lost and is unable to return to Mario,
+press shield+neutral special to teleport the partner back
+to Paper Mario.
+</text>
+  </entry>
+    <entry label="nam_peculiar_help_01_papermario">
+<text>
+1. Koops' Shell Toss
+   • Koops will perform his Shell Toss attack, launching himself forward in his shell and
+then returning back to Paper Mario.
+2. Yoshi Kid's Stampede and Flutter Kick
+   • Paper Mario mounts Yoshi Kid, allowing him to travel on the ground at fast speeds.
+   • Inputting neutral special again will allow Kid Yoshi to perform a hovering Flutter Kick.
+3. Bombette's Power Bomb
+   • Paper Mario tosses Bombette forward. Upon landing, she will walk around until making contact
+with an opponent, in which she will then explode.
+   • If Paper Mario is close to Bombette during her walk, input neutral special to throw her again.
+4. Lakilester's Spiny Flip
+   • Lakilester thows a spiny egg projectile in the direction he is facing. The egg will bounce several
+times after landing.
+   </text>
+  </entry>
+      <entry label="nam_peculiar_help_02_papermario">
+<text>
+5. Lady Bow's Spook
+   • Lady Bow will fade into the background. If an opponent gets too close to her, she will reveal
+her true form, frightening the opponent into a stun.
+6. Goombario's Headbonk and Goomba Charge
+   • Grounded: Goombario will begin a search for an opponent. Once he spots someone, he will perform a 
+goomba charge, burying the opponent if he hits them.
+   • Aerial: Goombario launch forward to perform his iconic headbonk attack.
+7. Ms. Mowz's Love Slap
+   • Ms. Mowz will launch at an opponent. If she lands on one, she will peform double love slaps to damage
+the opponent. After performing three sets of slaps, Ms. Mowz will jump off the opponent and return to Paper Mario.
+8. Madame Flurrie's Gale Force
+   • Grounded: Hold neutral special to have Flurrie blow in the direction that Paper Mario is facing. The angle of
+Gale Force can be aimed, however it quickly loses power over time.
+   • Aerial: Flurrie performs Gale Force in the air, launching Paper Mario and herself horizontally.
+   </text>
+  </entry>
+  <entry label="nam_special_lower_00_papermario">
+    <text>Hold Fast</text>
+  </entry>
+  <entry label="nam_special_lower_help_00_papermario">
+    <text>Summon Bobbery for a counterattack. The
+power of Bobbery's explosion depends on
+the enemy's attack.</text>
+  </entry>
+  <entry label="nam_special_normal_00_papermario">
+    <text>Partner Ring</text>
+  </entry>
+  <entry label="nam_special_normal_help_00_papermario">
+    <text>Summon a partner to aid you in battle by
+selecting them from the ring. With a partner out,
+this move uses their ability instead.</text>
+  </entry>
+  <entry label="nam_special_side_00_papermario">
+    <text>Thoreau</text>
+  </entry>
+  <entry label="nam_special_side_help_00_papermario">
+    <text>Throw the handy Pixl Thoreau forward, lifting
+any enemy he hits above your head. Paper Mario
+can move around after grabbing an enemy.</text>
+  </entry>
+  <entry label="nam_special_upper_00_papermario">
+    <text>Spring Jump / Parakarry</text>
+  </entry>
+  <entry label="nam_special_upper_help_00_papermario">
+    <text>On the ground, charge up a Spring Jump up
+to three levels of charge. In the air, summon
+Parakarry to fly you back to the stage.</text>
+  </entry>
+  <entry label="nam_final_arts_papermario">
+    <text>Peach Beam</text>
+  </entry>
+  <entry label="nam_final_arts_help_papermario">
+    <text>
+With the assistance of Paper Peach, summon the
+Star Spirits to cast Peach Beam on your opponent!
+After a quick prayer, the Start Spirits will
+launch forward. If they make contact with an 
+opponent, a deadly Peach Beam will launch from
+the sky!</text>
+  </entry>
+</xmsbt>

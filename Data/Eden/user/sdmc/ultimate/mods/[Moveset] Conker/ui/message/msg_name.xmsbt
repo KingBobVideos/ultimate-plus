@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmsbt>
+  <entry label="nam_chr0_00_conker">
+    <text>Conker</text>
+  </entry>
+  <entry label="nam_chr1_00_conker">
+    <text>Conker</text>
+  </entry>
+  <entry label="nam_chr2_00_conker">
+    <text>CONKER</text>
+  </entry>
+  <entry label="nam_chr3_00_conker">
+    <text>CONKER</text>
+  </entry>
+  <entry label="nam_stage_name_00_conker">
+    <text>King of All the Land</text>
+  </entry>
+  <entry label="nam_special_lower_00_conker">
+    <text>Context Sensitive</text>
+  </entry>
+  <entry label="nam_special_lower_help_00_conker">
+    <text>Stands on a Pad with a lightbulb. 
+Inputting the move again allows Conker 
+to do multiple different things.
+</text>
+  </entry>
+  <entry label="nam_special_normal_00_conker">
+    <text>Slingshot</text>
+  </entry>
+  <entry label="nam_special_normal_help_00_conker">
+    <text> Shoots a Nut from a slingshot. 
+Holding Up-right or down-right 
+will angle the shot.</text>
+  </entry>
+  <entry label="nam_special_side_00_conker">
+    <text>Mr. Barrel</text>
+  </entry>
+  <entry label="nam_special_side_help_00_conker">
+    <text>Goes for a ride. Can jump off to 
+let it roll for a set distance.</text>
+  </entry>
+  <entry label="nam_special_upper_00_conker">
+    <text>Tail Thing</text>
+  </entry>
+  <entry label="nam_special_upper_help_00_conker">
+    <text>Flies into the air with tail. 
+Slowly descends to the ground 
+after main boost.</text>
+  </entry>
+    <entry label="nam_peculiar_00_conker">
+    <text>Context Sensitive</text>
+  </entry>
+    <entry label="nam_peculiar_help_00_conker">
+    <text>Depending on where or what is happening to Conker during a match, 
+Context Sensitive will become different things.
+
+Inputting the move once will activate the search, inputting it again will 
+perform an action based off the following scenarios: 
+
+■ Crossbow (No specific event): Conker shoots an arrow from a crossbow.
+■ Counter (When Hit): Conker stuns the opponent. The stun is stronger at higher percents.
+■ Reflector (Near Projectile): Conker bats the projectile away.
+■ Anvil (Aerial, Onstage): Conker transforms into an anvil and plummets onto the ground.
+■ Jetpack (Aerial, Offstage): Conker equips a jetpack and flies forward.</text>
+  </entry>
+  <entry label="nam_final_arts_conker">
+    <text>Programmer's Arsenal</text>
+  </entry>
+  <entry label="nam_final_arts_help_conker">
+    <text>Conker hits the opponent so hard 
+that it freezes the game. He then unleashes a 
+flurry of attacks and finishes with a 
+giant katana slash to send them fliyng!</text>
+  </entry>
+</xmsbt>

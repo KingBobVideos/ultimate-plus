@@ -1,0 +1,191 @@
+kind = "samus"
+slots = [32,33,34,35,36,37,38,39]
+
+[[attribute_mul]]
+param = "mini_jump_y"
+subparam = ""
+value = 0.7222222222222222
+
+[[attribute_mul]]
+param = "air_speed_x_stable"
+subparam = ""
+value = 1.3883495145631066
+
+[[attribute_mul]]
+param = "air_speed_y_stable"
+subparam = ""
+value = 1.481203007518797
+
+[[attribute_mul]]
+param = "dive_speed_y"
+subparam = ""
+value = 1.0714285714285712
+
+[[param_int]]
+param = "air_lasso_type"
+subparam = ""
+value = 0
+
+[[param_float]]
+param = "param_gbeam"
+subparam = "shoot_length_max"
+value = 40
+kinds = ["samus", "samus_gbeam"]
+
+[[param_float]]
+param = "param_gbeam"
+subparam = "air_lasso_length_max"
+value = 40
+kinds = ["samus", "samus_gbeam"]
+
+[[param_float]]
+param = "param_gbeam"
+subparam = "rewind_speed"
+value = 3
+kinds = ["samus", "samus_gbeam"]
+
+[[param_float]]
+param = "param_gbeam"
+subparam = "reach_speed"
+value = 15
+kinds = ["samus", "samus_gbeam"]
+
+[[param_float]]
+param = "param_gbeam"
+subparam = "reach_length_max"
+value = 70
+kinds = ["samus", "samus_gbeam"]
+
+[[param_float]]
+param = "param_gbeam"
+subparam = "shoot_air_length_max"
+value = 40
+kinds = ["samus", "samus_gbeam"]
+
+[[param_float]]
+param = "param_cshot"
+subparam = "min_speed"
+value = 1.8
+kinds = ["samus", "samus_cshot"]
+
+[[param_float]]
+param = "param_cshot"
+subparam = "min_scale"
+value = 0.1
+kinds = ["samus", "samus_cshot"]
+
+[[param_float]]
+param = "param_cshot"
+subparam = "max_scale"
+value = 0.5
+kinds = ["samus", "samus_cshot"]
+
+[[param_int]]
+param = "param_cshot"
+subparam = "ground_effect_frame_span"
+value = 999
+kinds = ["samus", "samus_cshot"]
+
+[[param_int]]
+param = "param_special_s"
+subparam = "sp_s_smash_f"
+value = 1
+kinds = ["samus", "samus_special_s"]
+
+[[param_int]]
+param = "param_special_s"
+subparam = "missile_max_req"
+value = 8
+kinds = ["samus", "samus_special_s"]
+
+[[param_int]]
+param = "param_special_s"
+subparam = "supermissile_max_req"
+value = 5
+kinds = ["samus", "samus_special_s"]
+
+[[param_int]]
+param = "param_missile"
+subparam = "h_life"
+value = 100
+kinds = ["samus", "samus_missile"]
+
+[[param_float]]
+param = "param_missile"
+subparam = "h_spd"
+value = 2.15
+kinds = ["samus", "samus_missile"]
+
+[[param_float]]
+param = "param_missile"
+subparam = "h_anglemax"
+value = 360
+kinds = ["samus", "samus_missile"]
+
+[[param_float]]
+param = "param_missile"
+subparam = "h_angle"
+value = 10
+kinds = ["samus", "samus_missile"]
+
+[[param_int]]
+param = "param_missile"
+subparam = "h_homingf"
+value = 90
+kinds = ["samus", "samus_missile"]
+
+[[param_int]]
+param = "param_supermissile"
+subparam = "s_acc_f"
+value = 3
+kinds = ["samus", "samus_supermissile"]
+
+[[param_int]]
+param = "param_supermissile"
+subparam = "s_life"
+value = 120
+kinds = ["samus", "samus_supermissile"]
+
+[[param_float]]
+param = "param_special_lw"
+subparam = "sp_lw_bj_hit_size"
+value = 10
+kinds = ["samus", "samus_special_lw"]
+
+[[param_int]]
+param = "param_bomb"
+subparam = "life"
+value = 50
+kinds = ["samus", "samus_bomb"]
+
+[[param_float]]
+param = "param_bomb"
+subparam = "firing_speed_y"
+value = 0
+kinds = ["samus", "samus_bomb"]
+
+[[param_float]]
+param = "param_bomb"
+subparam = "accele_gravity"
+value = 0
+kinds = ["samus", "samus_bomb"]
+
+[[param_float]]
+param = "escape_b_hit_xlu_frame"
+subparam = ""
+value = 4
+
+[[param_float]]
+param = "escape_b_hit_normal_frame"
+subparam = ""
+value = 13
+
+[[param_float]]
+param = "escape_b_penalty_hit_xlu_frame"
+subparam = ""
+value = 7
+
+[[param_float]]
+param = "escape_b_penalty_hit_normal_frame"
+subparam = ""
+value = 9

@@ -1,0 +1,7 @@
+kind="donkey"
+slots=[32,33,34,35,36,37,38,39]
+
+[[param_int]]
+param="article_use_type"
+value=1
+kinds=["donkey_dkbarrel"]

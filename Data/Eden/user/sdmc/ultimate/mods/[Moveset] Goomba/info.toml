@@ -1,0 +1,7 @@
+version="1.0"
+display_name="Goomba (SSM)"
+description="""
+Goomba Moveset, what else is there to say?
+"""
+authors = "C#, Devory (UI, original model porting)"
+category = "Param"

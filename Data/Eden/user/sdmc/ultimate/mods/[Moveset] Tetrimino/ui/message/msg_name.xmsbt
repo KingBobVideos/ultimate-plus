@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmsbt>
+  <entry label="nam_chr0_00_tetris">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr1_00_tetris">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr2_00_tetris">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_chr3_00_tetris">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_stage_name_00_tetris">
+    <text>Line Destroyer</text>
+  </entry>
+  <entry label="nam_chr0_00_tetrisblue">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr1_00_tetrisblue">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr2_00_tetrisblue">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_chr3_00_tetrisblue">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_stage_name_00_tetrisyellow">
+    <text>Line Destroyer</text>
+  </entry>
+  <entry label="nam_chr0_00_tetrisyellow">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr1_00_tetrisyellow">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr2_00_tetrisyellow">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_chr3_00_tetrisyellow">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_stage_name_00_tetrisyellow">
+    <text>Line Destroyer</text>
+  </entry>
+  <entry label="nam_chr0_00_tetriscyan">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr1_00_tetriscyan">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr2_00_tetriscyan">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_chr3_00_tetriscyan">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_stage_name_00_tetriscyan">
+    <text>Line Destroyer</text>
+  </entry>
+  <entry label="nam_chr0_00_tetrispurple">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr1_00_tetrispurple">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr2_00_tetrispurple">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_chr3_00_tetrispurple">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_stage_name_00_tetrispurple">
+    <text>Line Destroyer</text>
+  </entry>
+  <entry label="nam_chr0_00_tetrisred">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr1_00_tetrisred">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr2_00_tetrisred">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_chr3_00_tetrisred">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_stage_name_00_tetrisred">
+    <text>Line Destroyer</text>
+  </entry>
+  <entry label="nam_chr0_00_tetrisgreen">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr1_00_tetrisgreen">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr2_00_tetrisgreen">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_chr3_00_tetrisgreen">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_stage_name_00_tetrisgreen">
+    <text>Line Destroyer</text>
+  </entry>
+  <entry label="nam_chr0_00_tetrisorange">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr1_00_tetrisorange">
+    <text>Tetrimino</text>
+  </entry>
+  <entry label="nam_chr2_00_tetrisorange">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_chr3_00_tetrisorange">
+    <text>TETRIMINO</text>
+  </entry>
+  <entry label="nam_stage_name_00_tetrisorange">
+    <text>Line Destroyer</text>
+  </entry>
+  <entry label="nam_special_normal_00_tetris">
+    <text>Block Drop</text>
+  </entry>
+  <entry label="nam_special_normal_help_00_tetris">
+    <text>Summons a falling Tetrimino block that
+deals damage on impact. Different block
+shapes have unique properties.</text>
+  </entry>
+  <entry label="nam_special_side_00_tetris">
+    <text>T-Spin</text>
+  </entry>
+  <entry label="nam_special_side_help_00_tetris">
+    <text>Transforms into a T-Block and rolls
+into foes.</text>
+  </entry>
+  <entry label="nam_special_upper_00_tetris">
+    <text>Hold</text>
+  </entry>
+  <entry label="nam_special_upper_help_00_tetris">
+    <text>Teleports upwards to the inside of a
+"Hold" block, briefly floating in place.</text>
+  </entry>
+  <entry label="nam_special_lower_00_tetris">
+    <text>Drop</text>
+  </entry>
+  <entry label="nam_special_lower_help_00_tetris">
+    <text>Rises into the air, allowing for horizontal
+movement while held. When released, slams
+downwards with force.</text>
+  </entry>
+  <entry label="nam_final_arts_tetris">
+    <text>Block Rain</text>
+  </entry>
+  <entry label="nam_final_arts_help_tetris">
+    <text>Calls down a shower of Tetrimino blocks
+to rain across the entire stage, dealing 
+massive damage on impact.</text>
+  </entry>
+  <entry label="nam_peculiar_00_tetris">
+    <text>Block Properties</text>
+  </entry>
+  <entry label="nam_peculiar_help_00_tetris">
+    <text>Each Tetrimino block has unique properties:
+    ■ I-Block (Line): Spikes opponents downward.
+    ■ T-Block: Launch direction depends on which part hits (up/left/right).
+    ■ O-Block (Cube): Deals the most damage and knockback.
+    ■ S-Block: Launches opponents to the right.
+    ■ L-Block: Launches opponents right and upward.
+    ■ Z-Block (Reverse S): Launches opponents to the left.
+    ■ J-Block (Reverse L): Launches opponents left and upward.</text>
+  </entry>
+</xmsbt>

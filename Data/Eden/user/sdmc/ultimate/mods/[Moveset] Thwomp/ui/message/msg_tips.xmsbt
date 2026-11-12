@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmsbt>
+<entry label="tip_title_3200">
+<text>Thwomp</text>
+</entry>
+<entry label="tip_text_3200">
+<text>First appearing in Super Mario Bros. 3, Thwomps appear as an angry living
+stone suspended in the air. Waiting until a certain mustache'd hero walks
+closely nearby, before attempting to crush the intruder!</text>
+</entry>
+<entry label="tip_title_3201">
+<text>Thwomp: Attributes</text>
+</entry>
+<entry label="tip_text_3201">
+<text>Thwomp as fighter can be a formidable force, having good defense, even
+with a lack of high speed! And although his air mobility might also lack a bit,
+getting hit by him might really make the difference!</text>
+</entry>
+<entry label="tip_title_3202">
+<text>Thwimps</text>
+</entry>
+<entry label="tip_text_3202">
+<text>Having first appeared in Super Mario World, the smaller, less impactful,
+and almost child-like Thwimps makes an appearence in Thwomp's second victory!
+It's really cute! I wonder if there might be another taunt they appear in...
+</text>
+</entry>
+
+<entry label="tip_title_3203">
+<text>Thwomp: Ground Smash (Neutral Special)</text>
+</entry>
+<entry label="tip_text_3203">
+<text>The ever so iconic attack! Thwomp will lift off from the ground and then strike down!
+Holding the special button delays his slam, but increases his damage output!
+A midair use of this move comes out quicker but with a consistant attack power.</text>
+</entry>
+<entry label="tip_title_3204">
+<text>Thwomp: Wall Slam (Side Special)</text>
+</entry>
+<entry label="tip_text_3204">
+<text>In recent times, there have been Thwomps known for slaming sideways!
+Like vertical ones, there's no stopping his momentum! If he hits a ledge,
+he might cause a bit of a ground shake, damaging any nearby foes!</text>
+</entry>
+<entry label="tip_title_3205">
+<text>Thwomp: Thwimp (Up Special)</text>
+</entry>
+<entry label="tip_text_3205">
+<text>Thwimps don't act like Thwomps do. They hop back and forth. With this
+in mind, Thwomp will also perform a huge jump, before slamming from a great
+height! You can even control which direction he moves in!</text>
+</entry>
+<entry label="tip_title_3206">
+<text>Thwomp: Angry Powerup (Down Special)</text>
+</entry>
+<entry label="tip_text_3206">
+<text>Thwomp can absorb an impact in anger to increase his own power!
+A lighter hit or a stronger attack will determine the temporary state of anger he goes into!
+</text>
+</entry>
+<entry label="tip_title_3207">
+<text>Thwomp: Mega Form (Final Smash)</text>
+</entry>
+<entry label="tip_text_3207">
+<text>A huge Thwomp falls from a great height! If he reaches the end of
+the screen, he will reappear up top for 2 more times! You can even
+choose how right or leftward he'll reappear using the control stick!
+</text>
+</entry>
+
+<entry label="tip_title_3208">
+<text>Thwomp: Side Attack</text>
+</entry>
+<entry label="tip_text_3208">
+<text>Thwomp's side attack pays a particular reference to another certain enemy.
+All he does is fall flat fowards though.. Really? I mean, who does that?
+</text>
+</entry>
+<entry label="tip_title_3209">
+<text>Thwomp: Down Attack</text>
+</entry>
+<entry label="tip_text_3209">
+<text>Thwomp's down attack has him rollout for a small distance. Quite the attack!
+Specifically, he won't roll off the ledge in most circumstances, but he can if
+there's ground nearby!
+</text>
+</entry>
+<entry label="tip_title_3210">
+<text>Thwomp: Win 3</text>
+</entry>
+<entry label="tip_text_3210">
+<text>In Thwomp's 3rd win screen, Mario appears, and gets taken out by Thwomp!
+If Luigi is in the match, he's the victim instead. If both are, it's decided randomly!
+They also wear their SMB3 colors if you've choosen Thwomp's third color!
+</text>
+</entry>
+</xmsbt>

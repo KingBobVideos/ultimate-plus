@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmsbt><entry label="nam_chr_no_00_supermario"><text>01ε</text></entry><entry label="nam_chr0_00_supermario"><text>Super Mario</text></entry><entry label="nam_chr1_00_supermario"><text>Super Mario</text></entry><entry label="nam_chr2_00_supermario"><text>SUPER MARIO</text></entry><entry label="nam_chr3_00_supermario"><text>SUPER MARIO</text></entry><entry label="nam_stage_name_00_supermario"><text>The Super Platforming Hero</text></entry><entry label="nam_special_normal_00_supermario">
+		<text>Fireball / Firebrand</text>
+	</entry>
+	<entry label="nam_special_normal_help_00_supermario">
+		<text>Throws a fireball that bounces
+along the ground. Holding the button
+charges Firebrand, a fast straight bolt.</text>
+	</entry>
+
+	<entry label="nam_special_side_00_supermario">
+		<text>Cap Toss</text>
+	</entry>
+	<entry label="nam_special_side_help_00_supermario">
+		<text>Throws Cappy forward like in Odyssey!
+Mario can hit opponents with him at a distance.</text>
+	</entry>
+
+	<entry label="nam_special_upper_00_supermario">
+		<text>Super Jump Punch</text>
+	</entry>
+	<entry label="nam_special_upper_help_00_supermario">
+		<text>Mario leaps high into the sky, dealing damage as he rises.
+On the way down, Mario can bounce off of his opponents!</text>
+	</entry>
+
+	<entry label="nam_special_lower_00_supermario">
+		<text>Spin Jump / Ground Pound</text>
+	</entry>
+	<entry label="nam_special_lower_help_00_supermario">
+		<text>On the ground, performs a Spin Jump that hits multiple times.
+In the air, slams downward in a Ground Pound.</text>
+	</entry>
+</xmsbt>

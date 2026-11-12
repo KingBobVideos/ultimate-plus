@@ -1,0 +1,27 @@
+[user_balance]
+# change this value to true to enable user_balancing, leave this to false to use the default stats
+# To avoid bugs, please have all the numerical values set as a positive integer
+# if the value of is not a positive integer, the game will use the default value instead
+is_activated = false
+
+[neutral_B]
+# number of frames magolor can float using neutral special
+flight_duration = 90
+# number of frames it takes to charge the neutral special to charge 2 from the startup
+charge_1_time = 25
+# number of frames it takes to charge the neutral special to charge 3 from stage 2
+charge_2_time = 65
+
+[up_B]
+# number of times the players can go through the portal
+portal_use_count = 1
+# number of frames before the portal dispawns
+portal_lifetime = 900
+# number of frames it takes to reapper after entering the portal
+portal_teleport_duration = 25
+
+[down_B]
+# Hitpoints of the bomb
+health = 45
+# Weight on the bomb
+weight = 100

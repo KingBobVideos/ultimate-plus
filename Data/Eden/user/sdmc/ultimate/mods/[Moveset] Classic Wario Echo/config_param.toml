@@ -1,0 +1,17 @@
+kind="wario"
+slots=[32,33,34,35]
+
+[[param_int]]
+param="attack_combo_max"
+subparam=""
+value=3
+
+[[param_float]]
+param="combo_attack_12_end"
+subparam=""
+value=24.0
+
+[[param_float]]
+param="combo_attack_13_end"
+subparam=""
+value=24.0

@@ -1,0 +1,3 @@
+display_name = "Roster - Paper Mario After Sora"
+category = "UI"
+description = "Manual Paper Mario CSS entry placed directly after Sora. Disable this folder to restore automatic placement."

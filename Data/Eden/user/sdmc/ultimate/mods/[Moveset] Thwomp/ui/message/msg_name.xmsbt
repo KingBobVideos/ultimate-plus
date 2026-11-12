@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmsbt>
+  <entry label="nam_chr_no_00_dossun">
+    <text>70e</text>
+  </entry>
+  <entry label="nam_chr0_00_dossun">
+    <text>Thwomp</text>
+  </entry>
+  <entry label="nam_chr1_00_dossun">
+    <text>Thwomp</text>
+  </entry>
+  <entry label="nam_chr2_00_dossun">
+    <text>THWOMP</text>
+  </entry>
+  <entry label="nam_chr3_00_dossun">
+    <text>THWOMP</text>
+  </entry>
+  <entry label="nam_stage_name_00_dossun">
+    <text>Living
+Stone</text>
+  </entry>
+
+<entry label="nam_special_normal_00_dossun">
+<text>Ground Smash</text>
+</entry>
+<entry label="nam_special_normal_help_00_dossun">
+    <text>Lift off from the ground and slam down! Hold
+the button to stall the slam, and increase the
+strength! A midair use is a quicker, stable attack!</text>
+</entry>
+
+<entry label="nam_special_side_00_dossun">
+<text>Wall Slam</text>
+</entry>
+<entry label="nam_special_side_help_00_dossun">
+    <text>Rushes forward at a considerable speed!
+Hitting a wall will stall him in place and slaming
+into a cliff can also damage nearby foes as well!</text>
+</entry>
+
+<entry label="nam_special_upper_00_dossun">
+<text>Thwimp Hop</text>
+</entry>
+<entry label="nam_special_upper_help_00_dossun">
+    <text>Performs a huge jump, similar to Thwimps,
+and slams down from a great height! Control
+which direction he moves as well!</text>
+</entry>
+<entry label="nam_special_lower_00_dossun">
+<text>Angry Powerup</text>
+</entry>
+<entry label="nam_special_lower_help_00_dossun">
+    <text>Absorbs the impact in anger, becoming more
+powerful! Small hits, or stronger attacks
+determine how strong he becomes temporarily!</text>
+</entry>
+<entry label="nam_final_arts_dossun">
+<text>Mega Form</text>
+</entry>
+<entry label="nam_final_arts_help_dossun">
+    <text>A huge Thwomp falls from a great
+height! For three times, he'll appear up
+top falling down until he leaves the screen!
+Holding left or right can also shift his
+next position!
+</text>
+</entry>
+
+   <entry label="nam_peculiar_00_dossun">
+      <text>Conditions for Angry Powerup</text>
+   </entry>
+<entry label="nam_peculiar_help_00_dossun">
+    <text>When Thwomp absorbs an attack, he can get into two different states.
+
+■Level 1
+   ・A hit that deals 12% or less will give him a 1.25% increase on most of his moves.
+   ・He also gets slightly cracked visually.
+■Level 2
+   ・If hit by a stronger move, he will receive a 1.5% increase on most of his attacks.
+   ・Hitlag on these attacks is also much longer.
+   ・Visually, he becomes furious and is severly cracked.
+
+In both circumstances, the powerup reverts once a move connects.
+He can also lose it if he gets KO'd during these states.
+</text>
+</entry>
+
+  <entry label="nam_peculiar_01_dossun">
+      <text>Thwimps</text>
+   </entry>
+<entry label="nam_peculiar_help_01_dossun">
+    <text>Thwimps have a chance of appearing during Thwomp's up taunt!
+
+One or two Thwimps can appear strictly based on a 15% and
+10% chance, respectively. They also might not be competely
+harmless for any foe near them!
+</text>
+</entry>
+
+   <entry label="nam_peculiar_02_dossun">
+      <text>Rollout</text>
+   </entry>
+<entry label="nam_peculiar_help_02_dossun">
+    <text>Thwomp's low attack, Rollout, can do quite some damage,
+but that's not all.
+
+In particular, he can roll off a platform or ledge depending on
+if there is ground nearby to land on. If there isn't any ground
+near or below him, he will not fall off.
+</text>
+</entry>
+
+  <entry label="nam_peculiar_03_dossun">
+      <text>Powering Through</text>
+   </entry>
+<entry label="nam_peculiar_help_03_dossun">
+    <text>In certain situations, Thwomp can actually power through
+a lot of attacks! These situations are:
+
+   ・ During the fall of Neutral Special.
+   ・ During the start of Side Special.
+   ・ During the fall of Up Special.
+</text>
+</entry>
+</xmsbt>
