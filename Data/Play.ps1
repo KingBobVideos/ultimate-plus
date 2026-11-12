@@ -72,6 +72,19 @@ function Add-Package($path, $wanted, $known) {
     foreach ($id in $ids.Keys) {$known[$id]=$true}
     return $true
 }
+function Read-DlcFolder($folder, $known) {
+    foreach ($file in Get-ChildItem -LiteralPath $folder -Recurse -File -Filter '*.nsp' -ErrorAction SilentlyContinue) {
+        try { foreach ($id in (Read-NspIds $file.FullName)) {$known[$id]=$true} } catch {continue}
+    }
+}
+function Pick-DlcFolder {
+    $dialog = New-Object Windows.Forms.FolderBrowserDialog
+    try {
+        $dialog.Description = 'Choose the folder containing your Smash DLC. Optional DLC can be in the same folder.'
+        $dialog.ShowNewFolderButton = $false
+        if ($dialog.ShowDialog() -eq 'OK') {$dialog.SelectedPath}
+    } finally {$dialog.Dispose()}
+}
 function Test-ProdKeys($path) {
     if (![IO.File]::Exists($path)) {return $false}
     return [bool](Select-String -LiteralPath $path -Pattern '^\s*header_key\s*=\s*[a-fA-F0-9]{64}\s*$' -Quiet)
@@ -115,9 +128,7 @@ function Play {
     foreach ($entry in [regex]::Matches($config,'(?m)^Paths\\external_content_dirs\\\d+\\path=(.*)$')) {
         $folder=$entry.Groups[1].Value.Trim().Trim('"')
         if (![IO.Directory]::Exists($folder)) {continue}
-        foreach ($file in Get-ChildItem -LiteralPath $folder -Recurse -File -Filter '*.nsp' -ErrorAction SilentlyContinue) {
-            try { foreach ($id in (Read-NspIds $file.FullName)) {$known[$id]=$true} } catch {continue}
-        }
+        Read-DlcFolder $folder $known
     }
     while (!(Has-Content $catalog[0] $known)) {
         $file=Pick 'Locate the Smash Ultimate 13.0.5 update NSP' 'Switch update (*.nsp)|*.nsp'
@@ -127,13 +138,20 @@ function Play {
     $fighters=@($catalog | Select-Object -Skip 1)
     while ($true) {
         $missing=@($fighters | Where-Object {!(Has-Content $_ $known)})
+        $status = "Core fighter DLC: $($fighters.Count - $missing.Count)/$($fighters.Count) detected."
+        Write-Host $status
         if (!$missing.Count) {break}
-        $answer=[Windows.Forms.MessageBox]::Show(("Missing fighter DLC: "+($missing.label -join ', ')+".`n`nYes: locate your DLC NSPs. No: play with your current DLC. Cancel: exit."),'Ultimate+','YesNoCancel')
+        $answer=[Windows.Forms.MessageBox]::Show(("$status`nMissing: "+($missing.label -join ', ')+".`n`nYes: choose your Smash DLC folder. No: play now. Cancel: exit."),'Ultimate+','YesNoCancel')
         if ($answer -eq 'Cancel') {return}
         if ($answer -eq 'No') {break}
-        $files=@(Pick 'Select your Smash fighter DLC NSPs (Ctrl or Shift for multiple)' 'Switch DLC (*.nsp)|*.nsp' $true)
-        if (!$files.Count) {continue}
-        foreach ($file in $files) {if (!(Add-Package $file $fighters $known)) {Notice ("Unrecognized fighter DLC: "+[IO.Path]::GetFileName($file))}}
+        $folder=Pick-DlcFolder
+        if (!$folder) {continue}
+        Read-DlcFolder $folder $known
+        Save-ExternalDir $folder
+        if (!@($fighters | Where-Object {!(Has-Content $_ $known)}).Count) {
+            Notice "Core fighter DLC: $($fighters.Count)/$($fighters.Count) detected. Your DLC folder is ready."
+            break
+        }
     }
     Start-Process -FilePath $exe -WorkingDirectory $eden -ArgumentList ('"'+$game+'"')
 }
