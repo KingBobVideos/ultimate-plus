@@ -91,7 +91,13 @@ function Test-ProdKeys($path) {
 }
 function Play {
     if (![IO.File]::Exists($exe)) {throw 'Extract the complete Ultimate+ folder before running Play.'}
-    if (Get-Process eden -ErrorAction SilentlyContinue | Where-Object Path -eq $exe) {throw 'Close this copy of Eden before running Play.'}
+    foreach ($instance in Get-Process -Name 'eden','eden-cli' -ErrorAction SilentlyContinue) {
+        if (!$instance.HasExited) {
+            Write-Host "Closing $($instance.ProcessName) (PID $($instance.Id))..."
+            try { $instance.Kill() } catch { if (!$instance.HasExited) { throw } }
+            if (!$instance.WaitForExit(10000)) { throw "Eden process $($instance.Id) is still running." }
+        }
+    }
     $keys = Join-Path $userDir 'keys'
     [void][IO.Directory]::CreateDirectory($keys)
     $prod = Join-Path $keys 'prod.keys'
