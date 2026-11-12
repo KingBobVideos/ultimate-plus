@@ -2,8 +2,8 @@
 
 **[Download Ultimate+ for Windows](https://github.com/KingBobVideos/ultimate-plus/archive/refs/heads/main.zip)**
 
-1. Extract the entire ZIP to a writable folder.
-2. Open the extracted folder and drag your Super Smash Bros. Ultimate base game (.xci or .nsp) onto **Play Ultimate+.cmd**. You can also double-click it and choose the file.
-3. On later launches, double-click **Play Ultimate+**. It remembers your game and opens it directly in the included portable Eden.
+Extract the full ZIP once. Open **Data → Eden → eden.exe** to configure and play with your own Smash Ultimate 13.0.5, DLC, keys and firmware.
 
-The modpack is already installed under Data/Eden/user/sdmc. Use your own game, Smash update 13.0.5, DLC, keys and firmware. For initial emulator configuration, open Data/Eden/eden.exe.
+For later updates, close Eden and double-click **Update Ultimate+.cmd** in the extracted folder. It checks the public GitHub build and downloads changed files. Your emulator setup and saves stay in your portable folder. Git is optional.
+
+**Already using the unpacked playtest?** Copy [Update Ultimate+.cmd](https://raw.githubusercontent.com/KingBobVideos/ultimate-plus/main/Update%20Ultimate%2B.cmd) into your existing Ultimate+ folder and [Update.ps1](https://raw.githubusercontent.com/KingBobVideos/ultimate-plus/main/Data/Update.ps1) into its Data folder, then run the command. GitHub Desktop clones can keep using Pull origin.

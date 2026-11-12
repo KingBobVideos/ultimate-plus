@@ -25,5 +25,5 @@ shutil.copytree(root / "Data/Eden" / echo_patch, eden / echo_patch)
 for filename in ("eden.exe", "LICENSE.txt", "README.md"):
     shutil.copy2(source / filename, eden / filename)
 shutil.copytree(source / "LICENSES", eden / "LICENSES")
-shutil.copy2(root / "Data/Install.ps1", target / "Data/Install.ps1")
-shutil.copy2(root / "Play Ultimate+.cmd", target / "Play Ultimate+.cmd")
+shutil.copy2(root / "Data/Update.ps1", target / "Data/Update.ps1")
+shutil.copy2(root / "Update Ultimate+.cmd", target / "Update Ultimate+.cmd")
