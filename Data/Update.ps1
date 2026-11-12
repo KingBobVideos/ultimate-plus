@@ -87,7 +87,7 @@ try {
     $stamp = Join-Path $root 'installer/revision.txt'
     $base = if (Test-Path -LiteralPath $marker) { [IO.File]::ReadAllText($marker).Trim() }
         elseif (Test-Path -LiteralPath $stamp) { [IO.File]::ReadAllText($stamp).Trim() }
-    if ($base -notmatch '^[0-9a-f]{40}$') {
+    if ([string]$base -notmatch '^[0-9a-f]{40}$') {
         if (!(Test-Path -LiteralPath "$root/Data/Eden/user/sdmc/ultimate/mods")) {throw 'Extract the full Ultimate+ download first.'}
         # Earliest fully unpacked public build. Later changes are checked by content.
         $base = '5be58f222e09e06f1b4999541f2fb0aeec7c81e6'
