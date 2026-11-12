@@ -1,6 +1,6 @@
 # Ultimate+
 
-Windows portable release. Extract the whole folder into a writable location and double-click Play Ultimate+. First run verifies and installs the pack inside Data/Eden/user/sdmc. Later launches open the included Eden directly. Set up your own Smash Ultimate 13.0.5, DLC, keys and firmware in this instance. Keep the folder together and use its launcher.
+[Download Ultimate+ for Windows](https://github.com/KingBobVideos/ultimate-plus/releases/download/v0.1.0-playtest.1/Ultimate%2B.zip). The launcher downloads the modpack automatically on first run. Extract the whole folder into a writable location and double-click Play Ultimate+. First run verifies and installs the pack inside Data/Eden/user/sdmc. Later launches open the included Eden directly. Set up your own Smash Ultimate 13.0.5, DLC, keys and firmware in this instance. Keep the folder together and use its launcher.
 
 ## Building another release
 

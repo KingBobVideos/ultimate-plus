@@ -16,7 +16,16 @@ $backup=Join-Path $UserFolder ("UltimatePlus Backup "+[guid]::NewGuid())
 $parts=foreach($line in Get-Content -LiteralPath "$PSScriptRoot/parts.sha256"){
  if($line -notmatch '^([a-f0-9]{64})  (UltimatePlus-[0-9]+\.zip)$'){throw "Invalid parts list"}
  $hash=$Matches[1];$part=Join-Path $PSScriptRoot $Matches[2]
- if((Get-FileHash -LiteralPath $part).Hash -ne $hash){throw "Missing or damaged download: $part"}
+ if (!(Test-Path -LiteralPath $part) -or (Get-FileHash -LiteralPath $part).Hash -ne $hash) {
+  $name=[IO.Path]::GetFileName($part)
+  $tag=(Get-Content -LiteralPath "$PSScriptRoot/release-tag.txt" -Raw).Trim()
+  $url="https://github.com/KingBobVideos/ultimate-plus/releases/download/$tag/$name"
+  Write-Host "Downloading $name. If interrupted, open Play Ultimate+ again."
+  & curl.exe --fail --location --retry 3 --output "$part.partial" $url
+  if ($LASTEXITCODE -ne 0) {throw "Download interrupted: $name"}
+  if ((Get-FileHash -LiteralPath "$part.partial").Hash -ne $hash) {throw "Download verification failed: $name"}
+  Move-Item -LiteralPath "$part.partial" -Destination $part -Force
+ }
  $part
 }
 foreach($part in $parts){
