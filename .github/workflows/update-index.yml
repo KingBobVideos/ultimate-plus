@@ -1,0 +1,36 @@
+name: Publish updater index
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ultimate-plus-update-index
+  cancel-in-progress: false
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Publish indexes for new revisions
+        shell: bash
+        run: |
+          set -eu
+          git fetch origin main update-index
+          git worktree add -B update-index ../indexes origin/update-index
+          head=$(git rev-parse origin/main)
+          base=$(cat ../indexes/latest.txt)
+          for rev in $(git rev-list --first-parent --reverse "$base..$head"); do
+            python3 installer/update_index.py "$rev" ../indexes
+          done
+          printf '%s\n' "$head" > ../indexes/latest.txt
+          git -C ../indexes config user.name github-actions
+          git -C ../indexes config user.email github-actions@github.com
+          git -C ../indexes add .
+          if ! git -C ../indexes diff --cached --quiet; then
+            git -C ../indexes commit -m "Index Ultimate+ $head"
+            git -C ../indexes push origin HEAD:update-index
+          fi

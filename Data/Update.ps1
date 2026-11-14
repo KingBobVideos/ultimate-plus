@@ -2,57 +2,48 @@ $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $root = Split-Path $PSScriptRoot
 $repo = 'KingBobVideos/ultimate-plus'
-$api = "https://api.github.com/repos/$repo"
+$indexUrl = "https://raw.githubusercontent.com/$repo/update-index"
 $state = Join-Path $root '.ultimate-plus-update'
 [void][IO.Directory]::CreateDirectory($state)
 
-function Get-Json($url) {
-    Invoke-RestMethod -Uri $url -Headers @{'User-Agent'='UltimatePlus-Updater'}
-}
-
-function Get-Tree($sha) {
-    $entries = @{}
-    if ($sha) {
-        $cache = Join-Path $state ("tree-"+$sha+".json")
-        if (![IO.File]::Exists($cache)) {
-            $tree = Get-Json "$api/git/trees/$sha"
-            if ($tree.truncated -or $tree.sha -ne $sha) {throw "Incomplete file list from GitHub. Retry later."}
-            [IO.File]::WriteAllText("$cache.new", (ConvertTo-Json -InputObject $tree.tree -Depth 3 -Compress))
-            [IO.File]::Move("$cache.new",$cache)
-        }
-        foreach ($item in (ConvertFrom-Json ([IO.File]::ReadAllText($cache)))) {
-            $entries[$item.path] = $item
-        }
+function Get-FileIndex($revision) {
+    if ($revision -notmatch '^[0-9a-f]{40}$') {throw 'Invalid update revision.'}
+    $file = Join-Path $state "$revision.json.gz"
+    if (![IO.File]::Exists($file)) {
+        & curl.exe -fsSL --retry 3 -o "$file.part" "$indexUrl/$revision.json.gz"
+        if ($LASTEXITCODE) {throw "Could not download the file list for $revision. Run the updater again."}
+        [IO.File]::Move("$file.part",$file)
     }
-    return $entries
-}
-
-function Is-Distributed($path) {
-    $path -in 'Data','README.md','Update Ultimate+.cmd','Play Ultimate+.cmd' -or
-    $path.StartsWith('Data/')
-}
-
-function Find-Changes($prefix, $oldTree, $newTree) {
-    if ($oldTree -eq $newTree) { return }
-    $before = Get-Tree $oldTree
-    $after = Get-Tree $newTree
-    foreach ($name in (@($before.Keys) + @($after.Keys) | Sort-Object -Unique)) {
-        $path = "$prefix$name"
-        if (!(Is-Distributed $path)) { continue }
-        $a = $before[$name]
-        $b = $after[$name]
-        if ($a.sha -eq $b.sha) { continue }
-        if ($a.type -eq 'tree' -or $b.type -eq 'tree') {
-            $old = if ($a.type -eq 'tree') { $a.sha }
-            $new = if ($b.type -eq 'tree') { $b.sha }
-            Find-Changes "$path/" $old $new
-        }
-        if ($a.type -eq 'blob' -or $b.type -eq 'blob') {
-            [pscustomobject]@{Path=$path; Old=$(if ($a.type -eq 'blob') {$a.sha}); New=$(if ($b.type -eq 'blob') {$b.sha})}
-        }
+    try {
+        $compressed = [IO.File]::OpenRead($file)
+        try {
+            $gzip = New-Object IO.Compression.GZipStream($compressed,[IO.Compression.CompressionMode]::Decompress)
+            $reader = New-Object IO.StreamReader($gzip)
+            try {
+                Add-Type -AssemblyName System.Web.Extensions
+                $json = New-Object System.Web.Script.Serialization.JavaScriptSerializer
+                $json.MaxJsonLength = 67108864
+                return ,$json.DeserializeObject($reader.ReadToEnd())
+            } finally {$reader.Dispose()}
+        } finally {$compressed.Dispose()}
+    } catch {
+        [IO.File]::Delete($file)
+        throw
     }
 }
 
+function Find-Changes($before,$after) {
+    foreach ($path in $after.Keys) {
+        if ($before[$path] -ne $after[$path]) {
+            [pscustomobject]@{Path=$path; Old=$before[$path]; New=$after[$path]}
+        }
+    }
+    foreach ($path in $before.Keys) {
+        if (!$after.ContainsKey($path)) {
+            [pscustomobject]@{Path=$path; Old=$before[$path]; New=$null}
+        }
+    }
+}
 function Blob-Id($path) {
     if (![IO.File]::Exists($path)) {return ''}
     $s = [IO.File]::OpenRead($path)
@@ -93,12 +84,12 @@ try {
         $base = '5be58f222e09e06f1b4999541f2fb0aeec7c81e6'
     }
     Write-Host 'Checking Ultimate+ for updates...'
-    $head = Get-Json "$api/commits/main"
-    if ($head.sha -eq $base) { Write-Host 'Ultimate+ is up to date.'; return }
+    $head = ((& curl.exe -fsSL --retry 3 "$indexUrl/latest.txt") -join "").Trim()
+    if ($LASTEXITCODE -ne 0 -or $head -notmatch "^[0-9a-f]{40}$") {throw "Could not read the latest Ultimate+ version."}
+    if ($head -eq $base) { Write-Host 'Ultimate+ is up to date.'; return }
     $eden = Join-Path $root 'Data/Eden/eden.exe'
     if (Get-Process eden -ErrorAction SilentlyContinue | Where-Object Path -eq $eden) {throw 'Close this copy of Eden and run the updater again.'}
-    $old = Get-Json "$api/commits/$base"
-    $changes = @(Find-Changes '' $old.commit.tree.sha $head.commit.tree.sha)
+    $changes = @(Find-Changes (Get-FileIndex $base) (Get-FileIndex $head))
     $stage = Join-Path $state 'downloads'
     [void][IO.Directory]::CreateDirectory($stage)
     $backup = Join-Path $state ('backup-'+[guid]::NewGuid())
@@ -111,7 +102,7 @@ try {
             if ((Blob-Id $cached) -ne $change.New) {
                 Write-Host "Downloading $($change.Path)"
                 $encoded = (($change.Path.Split('/') | ForEach-Object {[Uri]::EscapeDataString($_)}) -join '/')
-                & curl.exe -fsSL --retry 3 -o "$cached.part" "https://raw.githubusercontent.com/$repo/$($head.sha)/$encoded"
+                & curl.exe -fsSL --retry 3 -o "$cached.part" "https://raw.githubusercontent.com/$repo/$($head)/$encoded"
                 if ($LASTEXITCODE -ne 0 -or (Blob-Id "$cached.part") -ne $change.New) {throw "Could not verify $($change.Path). Run the updater again."}
                 [IO.File]::Copy("$cached.part",$cached,$true)
                 [IO.File]::Delete("$cached.part")
@@ -132,7 +123,7 @@ try {
             [IO.File]::Copy((Join-Path $stage $change.New),$path,$true)
         } else { [IO.File]::Delete($path) }
     }
-    [IO.File]::WriteAllText("$marker.new",$head.sha)
+    [IO.File]::WriteAllText("$marker.new",$head)
     if ([IO.File]::Exists($marker)) {[IO.File]::Replace("$marker.new",$marker,"$marker.previous")} else {[IO.File]::Move("$marker.new",$marker)}
     foreach ($change in $pending) {if ($change.New) {[IO.File]::Delete((Join-Path $stage $change.New))}}
     Write-Host "Ultimate+ is up to date. Applied $(@($pending | Where-Object {$_}).Count) file changes."
