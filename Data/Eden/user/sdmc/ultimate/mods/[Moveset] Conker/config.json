@@ -678,8 +678,7 @@
       "fighter/mario/motion/mantle/c32/d03speciallwloop.nuanmb",
       "fighter/mario/motion/pump/c32/d01specials.nuanmb",
       "fighter/mario/motion/pump/c32/d01specialsbreak.nuanmb",
-      "fighter/mario/motion/pump/c32/d01specialsstart.nuanmb",
-      "effect/fighter/mario/ef_mario_c32.eff"
+      "fighter/mario/motion/pump/c32/d01specialsstart.nuanmb"
     ],
     "fighter/mario/kirbycopy/c32": [
       "fighter/kirby/model/copy_mario_cap/c32/dark_model.numatb",
@@ -1305,7 +1304,6 @@
       "fighter/mario/motion/pump/c33/d01specials.nuanmb",
       "fighter/mario/motion/pump/c33/d01specialsbreak.nuanmb",
       "fighter/mario/motion/pump/c33/d01specialsstart.nuanmb",
-      "effect/fighter/mario/ef_mario_c33.eff",
       "camera/fighter/mario/c33/j02win1.kime",
       "camera/fighter/mario/c33/j02win2.kime",
       "camera/fighter/mario/c33/j02win3.kime"
@@ -1934,7 +1932,6 @@
       "fighter/mario/motion/pump/c34/d01specials.nuanmb",
       "fighter/mario/motion/pump/c34/d01specialsbreak.nuanmb",
       "fighter/mario/motion/pump/c34/d01specialsstart.nuanmb",
-      "effect/fighter/mario/ef_mario_c34.eff",
       "camera/fighter/mario/c34/j02win1.kime",
       "camera/fighter/mario/c34/j02win2.kime",
       "camera/fighter/mario/c34/j02win3.kime"
@@ -2563,7 +2560,6 @@
       "fighter/mario/motion/pump/c35/d01specials.nuanmb",
       "fighter/mario/motion/pump/c35/d01specialsbreak.nuanmb",
       "fighter/mario/motion/pump/c35/d01specialsstart.nuanmb",
-      "effect/fighter/mario/ef_mario_c35.eff",
       "camera/fighter/mario/c35/j02win1.kime",
       "camera/fighter/mario/c35/j02win2.kime",
       "camera/fighter/mario/c35/j02win3.kime"
@@ -3192,7 +3188,6 @@
       "fighter/mario/motion/pump/c36/d01specials.nuanmb",
       "fighter/mario/motion/pump/c36/d01specialsbreak.nuanmb",
       "fighter/mario/motion/pump/c36/d01specialsstart.nuanmb",
-      "effect/fighter/mario/ef_mario_c36.eff",
       "camera/fighter/mario/c36/j02win1.kime",
       "camera/fighter/mario/c36/j02win2.kime",
       "camera/fighter/mario/c36/j02win3.kime"
@@ -3823,7 +3818,6 @@
       "fighter/mario/motion/pump/c37/d01specials.nuanmb",
       "fighter/mario/motion/pump/c37/d01specialsbreak.nuanmb",
       "fighter/mario/motion/pump/c37/d01specialsstart.nuanmb",
-      "effect/fighter/mario/ef_mario_c37.eff",
       "camera/fighter/mario/c37/j02win1.kime",
       "camera/fighter/mario/c37/j02win2.kime",
       "camera/fighter/mario/c37/j02win3.kime"
@@ -4456,7 +4450,6 @@
       "fighter/mario/motion/pump/c38/d01specials.nuanmb",
       "fighter/mario/motion/pump/c38/d01specialsbreak.nuanmb",
       "fighter/mario/motion/pump/c38/d01specialsstart.nuanmb",
-      "effect/fighter/mario/ef_mario_c38.eff",
       "camera/fighter/mario/c38/j02win1.kime",
       "camera/fighter/mario/c38/j02win2.kime",
       "camera/fighter/mario/c38/j02win3.kime"
@@ -5086,7 +5079,6 @@
       "fighter/mario/motion/pump/c39/d01specials.nuanmb",
       "fighter/mario/motion/pump/c39/d01specialsbreak.nuanmb",
       "fighter/mario/motion/pump/c39/d01specialsstart.nuanmb",
-      "effect/fighter/mario/ef_mario_c39.eff",
       "camera/fighter/mario/c39/j02win1.kime",
       "camera/fighter/mario/c39/j02win2.kime",
       "camera/fighter/mario/c39/j02win3.kime"
@@ -5122,6 +5114,9 @@
     "fighter/mario/cmn/effect": [
       "effect/fighter/mario/trail/tex_conker_sword1.nutexb",
       "effect/fighter/mario/trail/tex_conker_sword2.nutexb"
+    ],
+    "fighter/mario/cmn": [
+      "effect/fighter/mario/transplant/conker/ef_conker.eff"
     ]
   },
   "share-to-added": {}

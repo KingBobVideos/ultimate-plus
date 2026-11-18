@@ -1363,7 +1363,6 @@
             "fighter/sonic/motion/body/c120/l02share_fistdown.nuanmb",
             "fighter/sonic/motion/body/c120/l02share_sleep.nuanmb",
             "fighter/sonic/motion/body/c120/motion_list.bin",
-            "fighter/sonic/motion/body/c120/motion_list.yml",
             "fighter/sonic/motion/body/c120/scharge.prc",
             "fighter/sonic/motion/body/c120/swing.prc",
             "fighter/sonic/motion/body/c120/swingblend.prc",
@@ -1518,7 +1517,6 @@
             "fighter/sonic/motion/body/c121/d01specialsattack.nuanmb",
             "fighter/sonic/motion/body/c121/d01specialsdive.nuanmb",
             "fighter/sonic/motion/body/c121/d01specialsjump.nuanmb",
-            "fighter/sonic/motion/body/c121/motion_list.yml",
             "fighter/sonic/model/body/c121/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c121/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c121/def_sonic_008_prm.nutexb",
@@ -2117,7 +2115,6 @@
             "fighter/sonic/motion/body/c122/d01specialsattack.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialsdive.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialsjump.nuanmb",
-            "fighter/sonic/motion/body/c122/motion_list.yml",
             "fighter/sonic/model/body/c122/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c122/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c122/def_sonic_008_prm.nutexb",
@@ -2716,7 +2713,6 @@
             "fighter/sonic/motion/body/c123/d01specialsattack.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialsdive.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialsjump.nuanmb",
-            "fighter/sonic/motion/body/c123/motion_list.yml",
             "fighter/sonic/model/body/c123/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c123/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c123/def_sonic_008_prm.nutexb",
@@ -3315,7 +3311,6 @@
             "fighter/sonic/motion/body/c124/d01specialsattack.nuanmb",
             "fighter/sonic/motion/body/c124/d01specialsdive.nuanmb",
             "fighter/sonic/motion/body/c124/d01specialsjump.nuanmb",
-            "fighter/sonic/motion/body/c124/motion_list.yml",
             "fighter/sonic/model/body/c124/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c124/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c124/def_sonic_008_prm.nutexb",
@@ -3914,7 +3909,6 @@
             "fighter/sonic/motion/body/c125/d01specialsattack.nuanmb",
             "fighter/sonic/motion/body/c125/d01specialsdive.nuanmb",
             "fighter/sonic/motion/body/c125/d01specialsjump.nuanmb",
-            "fighter/sonic/motion/body/c125/motion_list.yml",
             "fighter/sonic/model/body/c125/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c125/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c125/def_sonic_008_prm.nutexb",
@@ -4522,7 +4516,6 @@
             "fighter/sonic/motion/body/c126/d01specialsendold.nuanmb",
             "fighter/sonic/motion/body/c126/d01specialsendstartold.nuanmb",
             "fighter/sonic/motion/body/c126/d01specialsspinold.nuanmb",
-            "fighter/sonic/motion/body/c126/motion_list.yml",
             "fighter/sonic/model/body/c126/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c126/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c126/def_sonic_008_prm.nutexb",
@@ -5002,7 +4995,7 @@
             "fighter/sonic/model/body/c126/metal_sonic_002_col.nutexb",
             "fighter/sonic/model/body/c126/metal_sonic_002_nor.nutexb",
             "fighter/sonic/model/body/c126/metal_sonic_002_prm.nutexb",
-			"fighter/sonic/model/body/c126/def_sonic_001_col.nutexb",
+            "fighter/sonic/model/body/c126/def_sonic_001_col.nutexb",
             "fighter/sonic/model/body/c126/def_sonic_001_nor.nutexb",
             "fighter/sonic/model/body/c126/def_sonic_001_prm.nutexb",
             "fighter/sonic/model/body/c126/metamon_model.numatb",
@@ -5145,7 +5138,6 @@
             "fighter/sonic/motion/body/c127/d01specialsattack.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialsdive.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialsjump.nuanmb",
-            "fighter/sonic/motion/body/c127/motion_list.yml",
             "fighter/sonic/model/body/c127/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c127/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c127/def_sonic_008_prm.nutexb",
@@ -5704,7 +5696,7 @@
         ]
     },
     "share-to-added": {
-        "fighter/sonic/model/emerald/c120/dark_model.numatb" : [
+        "fighter/sonic/model/emerald/c120/dark_model.numatb": [
             "fighter/sonic/model/emerald/c121/dark_model.numatb",
             "fighter/sonic/model/emerald/c122/dark_model.numatb",
             "fighter/sonic/model/emerald/c123/dark_model.numatb",
@@ -5713,7 +5705,7 @@
             "fighter/sonic/model/emerald/c126/dark_model.numatb",
             "fighter/sonic/model/emerald/c127/dark_model.numatb"
         ],
-        "fighter/sonic/model/emerald/c120/light_model.numatb" : [
+        "fighter/sonic/model/emerald/c120/light_model.numatb": [
             "fighter/sonic/model/emerald/c121/light_model.numatb",
             "fighter/sonic/model/emerald/c122/light_model.numatb",
             "fighter/sonic/model/emerald/c123/light_model.numatb",
@@ -5722,7 +5714,7 @@
             "fighter/sonic/model/emerald/c126/light_model.numatb",
             "fighter/sonic/model/emerald/c127/light_model.numatb"
         ],
-        "fighter/sonic/model/emerald/c120/metamon_model.numatb" : [
+        "fighter/sonic/model/emerald/c120/metamon_model.numatb": [
             "fighter/sonic/model/emerald/c121/metamon_model.numatb",
             "fighter/sonic/model/emerald/c122/metamon_model.numatb",
             "fighter/sonic/model/emerald/c123/metamon_model.numatb",
@@ -5731,7 +5723,7 @@
             "fighter/sonic/model/emerald/c126/metamon_model.numatb",
             "fighter/sonic/model/emerald/c127/metamon_model.numatb"
         ],
-        "fighter/sonic/model/emerald/c120/model.nuanmb" : [
+        "fighter/sonic/model/emerald/c120/model.nuanmb": [
             "fighter/sonic/model/emerald/c121/model.nuanmb",
             "fighter/sonic/model/emerald/c122/model.nuanmb",
             "fighter/sonic/model/emerald/c123/model.nuanmb",
@@ -5740,7 +5732,7 @@
             "fighter/sonic/model/emerald/c126/model.nuanmb",
             "fighter/sonic/model/emerald/c127/model.nuanmb"
         ],
-        "fighter/sonic/model/emerald/c120/model.nuhlpb" : [
+        "fighter/sonic/model/emerald/c120/model.nuhlpb": [
             "fighter/sonic/model/emerald/c121/model.nuhlpb",
             "fighter/sonic/model/emerald/c122/model.nuhlpb",
             "fighter/sonic/model/emerald/c123/model.nuhlpb",
@@ -5749,7 +5741,7 @@
             "fighter/sonic/model/emerald/c126/model.nuhlpb",
             "fighter/sonic/model/emerald/c127/model.nuhlpb"
         ],
-        "fighter/sonic/model/emerald/c120/model.numatb" : [
+        "fighter/sonic/model/emerald/c120/model.numatb": [
             "fighter/sonic/model/emerald/c121/model.numatb",
             "fighter/sonic/model/emerald/c122/model.numatb",
             "fighter/sonic/model/emerald/c123/model.numatb",
@@ -5758,7 +5750,7 @@
             "fighter/sonic/model/emerald/c126/model.numatb",
             "fighter/sonic/model/emerald/c127/model.numatb"
         ],
-        "fighter/sonic/model/emerald/c120/model.numdlb" : [
+        "fighter/sonic/model/emerald/c120/model.numdlb": [
             "fighter/sonic/model/emerald/c121/model.numdlb",
             "fighter/sonic/model/emerald/c122/model.numdlb",
             "fighter/sonic/model/emerald/c123/model.numdlb",
@@ -5767,7 +5759,7 @@
             "fighter/sonic/model/emerald/c126/model.numdlb",
             "fighter/sonic/model/emerald/c127/model.numdlb"
         ],
-        "fighter/sonic/model/emerald/c120/model.numshb" : [
+        "fighter/sonic/model/emerald/c120/model.numshb": [
             "fighter/sonic/model/emerald/c121/model.numshb",
             "fighter/sonic/model/emerald/c122/model.numshb",
             "fighter/sonic/model/emerald/c123/model.numshb",
@@ -5776,7 +5768,7 @@
             "fighter/sonic/model/emerald/c126/model.numshb",
             "fighter/sonic/model/emerald/c127/model.numshb"
         ],
-        "fighter/sonic/model/emerald/c120/model.numshexb" : [
+        "fighter/sonic/model/emerald/c120/model.numshexb": [
             "fighter/sonic/model/emerald/c121/model.numshexb",
             "fighter/sonic/model/emerald/c122/model.numshexb",
             "fighter/sonic/model/emerald/c123/model.numshexb",
@@ -5785,7 +5777,7 @@
             "fighter/sonic/model/emerald/c126/model.numshexb",
             "fighter/sonic/model/emerald/c127/model.numshexb"
         ],
-        "fighter/sonic/model/emerald/c120/model.nusktb" : [
+        "fighter/sonic/model/emerald/c120/model.nusktb": [
             "fighter/sonic/model/emerald/c121/model.nusktb",
             "fighter/sonic/model/emerald/c122/model.nusktb",
             "fighter/sonic/model/emerald/c123/model.nusktb",
@@ -5794,7 +5786,7 @@
             "fighter/sonic/model/emerald/c126/model.nusktb",
             "fighter/sonic/model/emerald/c127/model.nusktb"
         ],
-        "fighter/sonic/model/emerald/c120/model.nusrcmdlb" : [
+        "fighter/sonic/model/emerald/c120/model.nusrcmdlb": [
             "fighter/sonic/model/emerald/c121/model.nusrcmdlb",
             "fighter/sonic/model/emerald/c122/model.nusrcmdlb",
             "fighter/sonic/model/emerald/c123/model.nusrcmdlb",
@@ -5803,7 +5795,7 @@
             "fighter/sonic/model/emerald/c126/model.nusrcmdlb",
             "fighter/sonic/model/emerald/c127/model.nusrcmdlb"
         ],
-        "fighter/sonic/model/emerald/c120/model.xmb" : [
+        "fighter/sonic/model/emerald/c120/model.xmb": [
             "fighter/sonic/model/emerald/c121/model.xmb",
             "fighter/sonic/model/emerald/c122/model.xmb",
             "fighter/sonic/model/emerald/c123/model.xmb",
@@ -5812,7 +5804,7 @@
             "fighter/sonic/model/emerald/c126/model.xmb",
             "fighter/sonic/model/emerald/c127/model.xmb"
         ],
-        "fighter/sonic/model/emerald/c120/supersonic_emerald_all_00_nor.nutexb" : [
+        "fighter/sonic/model/emerald/c120/supersonic_emerald_all_00_nor.nutexb": [
             "fighter/sonic/model/emerald/c121/supersonic_emerald_all_00_nor.nutexb",
             "fighter/sonic/model/emerald/c122/supersonic_emerald_all_00_nor.nutexb",
             "fighter/sonic/model/emerald/c123/supersonic_emerald_all_00_nor.nutexb",
@@ -5821,7 +5813,7 @@
             "fighter/sonic/model/emerald/c126/supersonic_emerald_all_00_nor.nutexb",
             "fighter/sonic/model/emerald/c127/supersonic_emerald_all_00_nor.nutexb"
         ],
-        "fighter/sonic/model/emerald/c120/supersonic_greenemerald_00_col.nutexb" : [
+        "fighter/sonic/model/emerald/c120/supersonic_greenemerald_00_col.nutexb": [
             "fighter/sonic/model/emerald/c121/supersonic_greenemerald_00_col.nutexb",
             "fighter/sonic/model/emerald/c122/supersonic_greenemerald_00_col.nutexb",
             "fighter/sonic/model/emerald/c123/supersonic_greenemerald_00_col.nutexb",
@@ -5830,7 +5822,7 @@
             "fighter/sonic/model/emerald/c126/supersonic_greenemerald_00_col.nutexb",
             "fighter/sonic/model/emerald/c127/supersonic_greenemerald_00_col.nutexb"
         ],
-        "fighter/sonic/model/emerald/c120/supersonic_greenemerald_01_col.nutexb" : [
+        "fighter/sonic/model/emerald/c120/supersonic_greenemerald_01_col.nutexb": [
             "fighter/sonic/model/emerald/c121/supersonic_greenemerald_01_col.nutexb",
             "fighter/sonic/model/emerald/c122/supersonic_greenemerald_01_col.nutexb",
             "fighter/sonic/model/emerald/c123/supersonic_greenemerald_01_col.nutexb",
@@ -5839,7 +5831,7 @@
             "fighter/sonic/model/emerald/c126/supersonic_greenemerald_01_col.nutexb",
             "fighter/sonic/model/emerald/c127/supersonic_greenemerald_01_col.nutexb"
         ],
-        "fighter/sonic/model/emerald/c120/supersonic_greenemerald_02_col.nutexb" : [
+        "fighter/sonic/model/emerald/c120/supersonic_greenemerald_02_col.nutexb": [
             "fighter/sonic/model/emerald/c121/supersonic_greenemerald_02_col.nutexb",
             "fighter/sonic/model/emerald/c122/supersonic_greenemerald_02_col.nutexb",
             "fighter/sonic/model/emerald/c123/supersonic_greenemerald_02_col.nutexb",
@@ -5848,7 +5840,7 @@
             "fighter/sonic/model/emerald/c126/supersonic_greenemerald_02_col.nutexb",
             "fighter/sonic/model/emerald/c127/supersonic_greenemerald_02_col.nutexb"
         ],
-        "fighter/sonic/motion/emerald/c120/motion_list.bin" : [
+        "fighter/sonic/motion/emerald/c120/motion_list.bin": [
             "fighter/sonic/motion/emerald/c121/motion_list.bin",
             "fighter/sonic/motion/emerald/c122/motion_list.bin",
             "fighter/sonic/motion/emerald/c123/motion_list.bin",
@@ -5857,7 +5849,7 @@
             "fighter/sonic/motion/emerald/c126/motion_list.bin",
             "fighter/sonic/motion/emerald/c127/motion_list.bin"
         ],
-        "fighter/sonic/model/firefist/c120/dark_model.numatb" : [
+        "fighter/sonic/model/firefist/c120/dark_model.numatb": [
             "fighter/sonic/model/firefist/c121/dark_model.numatb",
             "fighter/sonic/model/firefist/c122/dark_model.numatb",
             "fighter/sonic/model/firefist/c123/dark_model.numatb",
@@ -5866,7 +5858,7 @@
             "fighter/sonic/model/firefist/c126/dark_model.numatb",
             "fighter/sonic/model/firefist/c127/dark_model.numatb"
         ],
-        "fighter/sonic/model/firefist/c120/light_model.numatb" : [
+        "fighter/sonic/model/firefist/c120/light_model.numatb": [
             "fighter/sonic/model/firefist/c121/light_model.numatb",
             "fighter/sonic/model/firefist/c122/light_model.numatb",
             "fighter/sonic/model/firefist/c123/light_model.numatb",
@@ -5875,7 +5867,7 @@
             "fighter/sonic/model/firefist/c126/light_model.numatb",
             "fighter/sonic/model/firefist/c127/light_model.numatb"
         ],
-        "fighter/sonic/model/firefist/c120/metamon_model.numatb" : [
+        "fighter/sonic/model/firefist/c120/metamon_model.numatb": [
             "fighter/sonic/model/firefist/c121/metamon_model.numatb",
             "fighter/sonic/model/firefist/c122/metamon_model.numatb",
             "fighter/sonic/model/firefist/c123/metamon_model.numatb",
@@ -5884,7 +5876,7 @@
             "fighter/sonic/model/firefist/c126/metamon_model.numatb",
             "fighter/sonic/model/firefist/c127/metamon_model.numatb"
         ],
-        "fighter/sonic/model/firefist/c120/metal_cannonball_001_col.nutexb" : [
+        "fighter/sonic/model/firefist/c120/metal_cannonball_001_col.nutexb": [
             "fighter/sonic/model/firefist/c121/metal_cannonball_001_col.nutexb",
             "fighter/sonic/model/firefist/c122/metal_cannonball_001_col.nutexb",
             "fighter/sonic/model/firefist/c123/metal_cannonball_001_col.nutexb",
@@ -5893,7 +5885,7 @@
             "fighter/sonic/model/firefist/c126/metal_cannonball_001_col.nutexb",
             "fighter/sonic/model/firefist/c127/metal_cannonball_001_col.nutexb"
         ],
-        "fighter/sonic/model/firefist/c120/metal_cannonball_001_nor.nutexb" : [
+        "fighter/sonic/model/firefist/c120/metal_cannonball_001_nor.nutexb": [
             "fighter/sonic/model/firefist/c121/metal_cannonball_001_nor.nutexb",
             "fighter/sonic/model/firefist/c122/metal_cannonball_001_nor.nutexb",
             "fighter/sonic/model/firefist/c123/metal_cannonball_001_nor.nutexb",
@@ -5902,7 +5894,7 @@
             "fighter/sonic/model/firefist/c126/metal_cannonball_001_nor.nutexb",
             "fighter/sonic/model/firefist/c127/metal_cannonball_001_nor.nutexb"
         ],
-        "fighter/sonic/model/firefist/c120/metal_cannonball_001_prm.nutexb" : [
+        "fighter/sonic/model/firefist/c120/metal_cannonball_001_prm.nutexb": [
             "fighter/sonic/model/firefist/c121/metal_cannonball_001_prm.nutexb",
             "fighter/sonic/model/firefist/c122/metal_cannonball_001_prm.nutexb",
             "fighter/sonic/model/firefist/c123/metal_cannonball_001_prm.nutexb",
@@ -5911,7 +5903,7 @@
             "fighter/sonic/model/firefist/c126/metal_cannonball_001_prm.nutexb",
             "fighter/sonic/model/firefist/c127/metal_cannonball_001_prm.nutexb"
         ],
-        "fighter/sonic/model/firefist/c120/model.nuanmb" : [
+        "fighter/sonic/model/firefist/c120/model.nuanmb": [
             "fighter/sonic/model/firefist/c121/model.nuanmb",
             "fighter/sonic/model/firefist/c122/model.nuanmb",
             "fighter/sonic/model/firefist/c123/model.nuanmb",
@@ -5920,7 +5912,7 @@
             "fighter/sonic/model/firefist/c126/model.nuanmb",
             "fighter/sonic/model/firefist/c127/model.nuanmb"
         ],
-        "fighter/sonic/model/firefist/c120/model.nuhlpb" : [
+        "fighter/sonic/model/firefist/c120/model.nuhlpb": [
             "fighter/sonic/model/firefist/c121/model.nuhlpb",
             "fighter/sonic/model/firefist/c122/model.nuhlpb",
             "fighter/sonic/model/firefist/c123/model.nuhlpb",
@@ -5929,7 +5921,7 @@
             "fighter/sonic/model/firefist/c126/model.nuhlpb",
             "fighter/sonic/model/firefist/c127/model.nuhlpb"
         ],
-        "fighter/sonic/model/firefist/c120/model.numatb" : [
+        "fighter/sonic/model/firefist/c120/model.numatb": [
             "fighter/sonic/model/firefist/c121/model.numatb",
             "fighter/sonic/model/firefist/c122/model.numatb",
             "fighter/sonic/model/firefist/c123/model.numatb",
@@ -5938,7 +5930,7 @@
             "fighter/sonic/model/firefist/c126/model.numatb",
             "fighter/sonic/model/firefist/c127/model.numatb"
         ],
-        "fighter/sonic/model/firefist/c120/model.numdlb" : [
+        "fighter/sonic/model/firefist/c120/model.numdlb": [
             "fighter/sonic/model/firefist/c121/model.numdlb",
             "fighter/sonic/model/firefist/c122/model.numdlb",
             "fighter/sonic/model/firefist/c123/model.numdlb",
@@ -5947,7 +5939,7 @@
             "fighter/sonic/model/firefist/c126/model.numdlb",
             "fighter/sonic/model/firefist/c127/model.numdlb"
         ],
-        "fighter/sonic/model/firefist/c120/model.numshb" : [
+        "fighter/sonic/model/firefist/c120/model.numshb": [
             "fighter/sonic/model/firefist/c121/model.numshb",
             "fighter/sonic/model/firefist/c122/model.numshb",
             "fighter/sonic/model/firefist/c123/model.numshb",
@@ -5956,7 +5948,7 @@
             "fighter/sonic/model/firefist/c126/model.numshb",
             "fighter/sonic/model/firefist/c127/model.numshb"
         ],
-        "fighter/sonic/model/firefist/c120/model.numshexb" : [
+        "fighter/sonic/model/firefist/c120/model.numshexb": [
             "fighter/sonic/model/firefist/c121/model.numshexb",
             "fighter/sonic/model/firefist/c122/model.numshexb",
             "fighter/sonic/model/firefist/c123/model.numshexb",
@@ -5965,7 +5957,7 @@
             "fighter/sonic/model/firefist/c126/model.numshexb",
             "fighter/sonic/model/firefist/c127/model.numshexb"
         ],
-        "fighter/sonic/model/firefist/c120/model.nusktb" : [
+        "fighter/sonic/model/firefist/c120/model.nusktb": [
             "fighter/sonic/model/firefist/c121/model.nusktb",
             "fighter/sonic/model/firefist/c122/model.nusktb",
             "fighter/sonic/model/firefist/c123/model.nusktb",
@@ -5974,7 +5966,7 @@
             "fighter/sonic/model/firefist/c126/model.nusktb",
             "fighter/sonic/model/firefist/c127/model.nusktb"
         ],
-        "fighter/sonic/model/firefist/c120/model.nusrcmdlb" : [
+        "fighter/sonic/model/firefist/c120/model.nusrcmdlb": [
             "fighter/sonic/model/firefist/c121/model.nusrcmdlb",
             "fighter/sonic/model/firefist/c122/model.nusrcmdlb",
             "fighter/sonic/model/firefist/c123/model.nusrcmdlb",
@@ -5983,7 +5975,7 @@
             "fighter/sonic/model/firefist/c126/model.nusrcmdlb",
             "fighter/sonic/model/firefist/c127/model.nusrcmdlb"
         ],
-        "fighter/sonic/model/firefist/c120/model.xmb" : [
+        "fighter/sonic/model/firefist/c120/model.xmb": [
             "fighter/sonic/model/firefist/c121/model.xmb",
             "fighter/sonic/model/firefist/c122/model.xmb",
             "fighter/sonic/model/firefist/c123/model.xmb",
@@ -5992,7 +5984,7 @@
             "fighter/sonic/model/firefist/c126/model.xmb",
             "fighter/sonic/model/firefist/c127/model.xmb"
         ],
-        "fighter/sonic/motion/firefist/c120/d00specialnshoot.nuanmb" : [
+        "fighter/sonic/motion/firefist/c120/d00specialnshoot.nuanmb": [
             "fighter/sonic/motion/firefist/c121/d00specialnshoot.nuanmb",
             "fighter/sonic/motion/firefist/c122/d00specialnshoot.nuanmb",
             "fighter/sonic/motion/firefist/c123/d00specialnshoot.nuanmb",
@@ -6001,7 +5993,7 @@
             "fighter/sonic/motion/firefist/c126/d00specialnshoot.nuanmb",
             "fighter/sonic/motion/firefist/c127/d00specialnshoot.nuanmb"
         ],
-        "fighter/sonic/motion/firefist/c120/motion_list.bin" : [
+        "fighter/sonic/motion/firefist/c120/motion_list.bin": [
             "fighter/sonic/motion/firefist/c121/motion_list.bin",
             "fighter/sonic/motion/firefist/c122/motion_list.bin",
             "fighter/sonic/motion/firefist/c123/motion_list.bin",
@@ -6010,7 +6002,7 @@
             "fighter/sonic/motion/firefist/c126/motion_list.bin",
             "fighter/sonic/motion/firefist/c127/motion_list.bin"
         ],
-        "fighter/sonic/motion/firefist/c120/update.prc" : [
+        "fighter/sonic/motion/firefist/c120/update.prc": [
             "fighter/sonic/motion/firefist/c121/update.prc",
             "fighter/sonic/motion/firefist/c122/update.prc",
             "fighter/sonic/motion/firefist/c123/update.prc",
@@ -6018,7 +6010,7 @@
             "fighter/sonic/motion/firefist/c125/update.prc",
             "fighter/sonic/motion/firefist/c126/update.prc",
             "fighter/sonic/motion/firefist/c127/update.prc"
-        ],        
+        ],
         "sound/bank/fighter/se_sonic_c120.nus3audio": [
             "sound/bank/fighter/se_sonic_c121.nus3audio",
             "sound/bank/fighter/se_sonic_c122.nus3audio",
@@ -6196,7 +6188,7 @@
             "fighter/kirby/motion/copy_sonic_sphere/c126/update.prc",
             "fighter/kirby/motion/copy_sonic_sphere/c127/update.prc"
         ],
-        "fighter/sonic/model/body/c120/def_sonic_008_col.nutexb" : [
+        "fighter/sonic/model/body/c120/def_sonic_008_col.nutexb": [
             "fighter/sonic/model/body/c121/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c122/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c123/def_sonic_008_col.nutexb",
@@ -6205,7 +6197,7 @@
             "fighter/sonic/model/body/c126/def_sonic_008_col.nutexb",
             "fighter/sonic/model/body/c127/def_sonic_008_col.nutexb"
         ],
-        "fighter/sonic/model/body/c120/def_sonic_008_nor.nutexb" : [
+        "fighter/sonic/model/body/c120/def_sonic_008_nor.nutexb": [
             "fighter/sonic/model/body/c121/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c122/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c123/def_sonic_008_nor.nutexb",
@@ -6214,7 +6206,7 @@
             "fighter/sonic/model/body/c126/def_sonic_008_nor.nutexb",
             "fighter/sonic/model/body/c127/def_sonic_008_nor.nutexb"
         ],
-        "fighter/sonic/model/body/c120/def_sonic_008_prm.nutexb" : [
+        "fighter/sonic/model/body/c120/def_sonic_008_prm.nutexb": [
             "fighter/sonic/model/body/c121/def_sonic_008_prm.nutexb",
             "fighter/sonic/model/body/c122/def_sonic_008_prm.nutexb",
             "fighter/sonic/model/body/c123/def_sonic_008_prm.nutexb",
@@ -6222,7 +6214,7 @@
             "fighter/sonic/model/body/c125/def_sonic_008_prm.nutexb",
             "fighter/sonic/model/body/c127/def_sonic_008_prm.nutexb"
         ],
-        "fighter/sonic/motion/body/c120/c00attack100.nuanmb" : [
+        "fighter/sonic/motion/body/c120/c00attack100.nuanmb": [
             "fighter/sonic/motion/body/c121/c00attack100.nuanmb",
             "fighter/sonic/motion/body/c122/c00attack100.nuanmb",
             "fighter/sonic/motion/body/c123/c00attack100.nuanmb",
@@ -6231,7 +6223,7 @@
             "fighter/sonic/motion/body/c126/c00attack100.nuanmb",
             "fighter/sonic/motion/body/c127/c00attack100.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/c00attack100end.nuanmb" : [
+        "fighter/sonic/motion/body/c120/c00attack100end.nuanmb": [
             "fighter/sonic/motion/body/c121/c00attack100end.nuanmb",
             "fighter/sonic/motion/body/c122/c00attack100end.nuanmb",
             "fighter/sonic/motion/body/c123/c00attack100end.nuanmb",
@@ -6240,7 +6232,7 @@
             "fighter/sonic/motion/body/c126/c00attack100end.nuanmb",
             "fighter/sonic/motion/body/c127/c00attack100end.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/c00attack100start.nuanmb" : [
+        "fighter/sonic/motion/body/c120/c00attack100start.nuanmb": [
             "fighter/sonic/motion/body/c121/c00attack100start.nuanmb",
             "fighter/sonic/motion/body/c122/c00attack100start.nuanmb",
             "fighter/sonic/motion/body/c123/c00attack100start.nuanmb",
@@ -6249,7 +6241,7 @@
             "fighter/sonic/motion/body/c126/c00attack100start.nuanmb",
             "fighter/sonic/motion/body/c127/c00attack100start.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d00specialairndig.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d00specialairndig.nuanmb": [
             "fighter/sonic/motion/body/c121/d00specialairndig.nuanmb",
             "fighter/sonic/motion/body/c122/d00specialairndig.nuanmb",
             "fighter/sonic/motion/body/c123/d00specialairndig.nuanmb",
@@ -6258,7 +6250,7 @@
             "fighter/sonic/motion/body/c126/d00specialairndig.nuanmb",
             "fighter/sonic/motion/body/c127/d00specialairndig.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d00specialairndrillloop.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d00specialairndrillloop.nuanmb": [
             "fighter/sonic/motion/body/c121/d00specialairndrillloop.nuanmb",
             "fighter/sonic/motion/body/c122/d00specialairndrillloop.nuanmb",
             "fighter/sonic/motion/body/c123/d00specialairndrillloop.nuanmb",
@@ -6267,7 +6259,7 @@
             "fighter/sonic/motion/body/c126/d00specialairndrillloop.nuanmb",
             "fighter/sonic/motion/body/c127/d00specialairndrillloop.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d00specialairndrillstart.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d00specialairndrillstart.nuanmb": [
             "fighter/sonic/motion/body/c121/d00specialairndrillstart.nuanmb",
             "fighter/sonic/motion/body/c122/d00specialairndrillstart.nuanmb",
             "fighter/sonic/motion/body/c123/d00specialairndrillstart.nuanmb",
@@ -6276,7 +6268,7 @@
             "fighter/sonic/motion/body/c126/d00specialairndrillstart.nuanmb",
             "fighter/sonic/motion/body/c127/d00specialairndrillstart.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d00specialndig.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d00specialndig.nuanmb": [
             "fighter/sonic/motion/body/c121/d00specialndig.nuanmb",
             "fighter/sonic/motion/body/c122/d00specialndig.nuanmb",
             "fighter/sonic/motion/body/c123/d00specialndig.nuanmb",
@@ -6285,7 +6277,7 @@
             "fighter/sonic/motion/body/c126/d00specialndig.nuanmb",
             "fighter/sonic/motion/body/c127/d00specialndig.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d00specialnupper.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d00specialnupper.nuanmb": [
             "fighter/sonic/motion/body/c121/d00specialnupper.nuanmb",
             "fighter/sonic/motion/body/c122/d00specialnupper.nuanmb",
             "fighter/sonic/motion/body/c123/d00specialnupper.nuanmb",
@@ -6294,7 +6286,7 @@
             "fighter/sonic/motion/body/c126/d00specialnupper.nuanmb",
             "fighter/sonic/motion/body/c127/d00specialnupper.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d01specialairsendloopold.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d01specialairsendloopold.nuanmb": [
             "fighter/sonic/motion/body/c121/d01specialairsendloopold.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialairsendloopold.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialairsendloopold.nuanmb",
@@ -6303,7 +6295,7 @@
             "fighter/sonic/motion/body/c126/d01specialairsendloopold.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialairsendloopold.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d01specialairsendstartold.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d01specialairsendstartold.nuanmb": [
             "fighter/sonic/motion/body/c121/d01specialairsendstartold.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialairsendstartold.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialairsendstartold.nuanmb",
@@ -6312,7 +6304,7 @@
             "fighter/sonic/motion/body/c126/d01specialairsendstartold.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialairsendstartold.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d01specialairswall.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d01specialairswall.nuanmb": [
             "fighter/sonic/motion/body/c121/d01specialairswall.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialairswall.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialairswall.nuanmb",
@@ -6321,7 +6313,7 @@
             "fighter/sonic/motion/body/c126/d01specialairswall.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialairswall.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d01specialairswalldown.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d01specialairswalldown.nuanmb": [
             "fighter/sonic/motion/body/c121/d01specialairswalldown.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialairswalldown.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialairswalldown.nuanmb",
@@ -6330,7 +6322,7 @@
             "fighter/sonic/motion/body/c126/d01specialairswalldown.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialairswalldown.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d01specialairswallup.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d01specialairswallup.nuanmb": [
             "fighter/sonic/motion/body/c121/d01specialairswallup.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialairswallup.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialairswallup.nuanmb",
@@ -6339,7 +6331,7 @@
             "fighter/sonic/motion/body/c126/d01specialairswallup.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialairswallup.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d01specialsendloopold.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d01specialsendloopold.nuanmb": [
             "fighter/sonic/motion/body/c121/d01specialsendloopold.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialsendloopold.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialsendloopold.nuanmb",
@@ -6348,7 +6340,7 @@
             "fighter/sonic/motion/body/c126/d01specialsendloopold.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialsendloopold.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d01specialsendold.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d01specialsendold.nuanmb": [
             "fighter/sonic/motion/body/c121/d01specialsendold.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialsendold.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialsendold.nuanmb",
@@ -6357,7 +6349,7 @@
             "fighter/sonic/motion/body/c126/d01specialsendold.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialsendold.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d01specialsendstartold.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d01specialsendstartold.nuanmb": [
             "fighter/sonic/motion/body/c121/d01specialsendstartold.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialsendstartold.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialsendstartold.nuanmb",
@@ -6366,7 +6358,7 @@
             "fighter/sonic/motion/body/c126/d01specialsendstartold.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialsendstartold.nuanmb"
         ],
-        "fighter/sonic/motion/body/c120/d01specialsspinold.nuanmb" : [
+        "fighter/sonic/motion/body/c120/d01specialsspinold.nuanmb": [
             "fighter/sonic/motion/body/c121/d01specialsspinold.nuanmb",
             "fighter/sonic/motion/body/c122/d01specialsspinold.nuanmb",
             "fighter/sonic/motion/body/c123/d01specialsspinold.nuanmb",
@@ -6374,15 +6366,6 @@
             "fighter/sonic/motion/body/c125/d01specialsspinold.nuanmb",
             "fighter/sonic/motion/body/c126/d01specialsspinold.nuanmb",
             "fighter/sonic/motion/body/c127/d01specialsspinold.nuanmb"
-        ],
-        "fighter/sonic/motion/body/c120/motion_list.yml" : [
-            "fighter/sonic/motion/body/c121/motion_list.yml",
-            "fighter/sonic/motion/body/c122/motion_list.yml",
-            "fighter/sonic/motion/body/c123/motion_list.yml",
-            "fighter/sonic/motion/body/c124/motion_list.yml",
-            "fighter/sonic/motion/body/c125/motion_list.yml",
-            "fighter/sonic/motion/body/c126/motion_list.yml",
-            "fighter/sonic/motion/body/c127/motion_list.yml"
         ],
         "fighter/sonic/model/body/c120/dark_model.numatb": [
             "fighter/sonic/model/body/c121/dark_model.numatb",

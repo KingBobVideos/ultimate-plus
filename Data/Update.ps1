@@ -87,8 +87,13 @@ try {
     $head = ((& curl.exe -fsSL --retry 3 "$indexUrl/latest.txt") -join "").Trim()
     if ($LASTEXITCODE -ne 0 -or $head -notmatch "^[0-9a-f]{40}$") {throw "Could not read the latest Ultimate+ version."}
     if ($head -eq $base) { Write-Host 'Ultimate+ is up to date.'; return }
-    $eden = Join-Path $root 'Data/Eden/eden.exe'
-    if (Get-Process eden -ErrorAction SilentlyContinue | Where-Object Path -eq $eden) {throw 'Close this copy of Eden and run the updater again.'}
+    foreach ($instance in Get-Process -Name 'eden','eden-cli' -ErrorAction SilentlyContinue) {
+        if (!$instance.HasExited) {
+            Write-Host "Closing $($instance.ProcessName) (PID $($instance.Id))..."
+            try { $instance.Kill() } catch { if (!$instance.HasExited) { throw } }
+            if (!$instance.WaitForExit(10000)) { throw "Eden process $($instance.Id) is still running." }
+        }
+    }
     $changes = @(Find-Changes (Get-FileIndex $base) (Get-FileIndex $head))
     $stage = Join-Path $state 'downloads'
     [void][IO.Directory]::CreateDirectory($stage)

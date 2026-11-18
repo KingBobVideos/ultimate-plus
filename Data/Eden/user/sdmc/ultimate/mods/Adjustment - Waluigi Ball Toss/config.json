@@ -1,0 +1,24 @@
+{
+  "new-dir-files": {
+    "fighter/murabito/cmn": [
+      "effect/fighter/murabito/transplant/pocketball/ef_pocketball.eff",
+      "effect/fighter/murabito/transplant/pocketball/model/m_pockettennisball/c00/model.nuanmb",
+      "effect/fighter/murabito/transplant/pocketball/model/m_pockettennisball/c00/model.nuhlpb",
+      "effect/fighter/murabito/transplant/pocketball/model/m_pockettennisball/c00/model.numatb",
+      "effect/fighter/murabito/transplant/pocketball/model/m_pockettennisball/c00/model.numdlb",
+      "effect/fighter/murabito/transplant/pocketball/model/m_pockettennisball/c00/model.numshb",
+      "effect/fighter/murabito/transplant/pocketball/model/m_pockettennisball/c00/model.numshexb",
+      "effect/fighter/murabito/transplant/pocketball/model/m_pockettennisball/c00/model.nusktb",
+      "effect/fighter/murabito/transplant/pocketball/model/m_pockettennisball/c00/tennis_ball_col.nutexb",
+      "effect/fighter/murabito/transplant/pocketball/model/m_pockettennisball/c00/tennis_ball_prm.nutexb",
+      "effect/fighter/murabito/transplant/pockettrail/ef_pockettrail.eff",
+      "effect/fighter/murabito/transplant/pockettrail/model/m_pockettrailstrip/c00/model.nuanmb",
+      "effect/fighter/murabito/transplant/pockettrail/model/m_pockettrailstrip/c00/model.numatb",
+      "effect/fighter/murabito/transplant/pockettrail/model/m_pockettrailstrip/c00/model.numdlb",
+      "effect/fighter/murabito/transplant/pockettrail/model/m_pockettrailstrip/c00/model.numshb",
+      "effect/fighter/murabito/transplant/pockettrail/model/m_pockettrailstrip/c00/model.numshexb",
+      "effect/fighter/murabito/transplant/pockettrail/model/m_pockettrailstrip/c00/model.nusktb",
+      "effect/fighter/murabito/transplant/pockettrail/model/m_pockettrailstrip/c00/tennis_ribbon.nutexb"
+    ]
+  }
+}

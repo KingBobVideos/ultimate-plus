@@ -1,0 +1,24 @@
+{
+  "new-dir-files": {
+    "fighter/murabito/cmn": [
+      "effect/fighter/murabito/transplant/golfball/ef_golfball.eff",
+      "effect/fighter/murabito/transplant/golfball/model/m_pocketgolfball/c00/golf_ball_col.nutexb",
+      "effect/fighter/murabito/transplant/golfball/model/m_pocketgolfball/c00/golf_ball_nor.nutexb",
+      "effect/fighter/murabito/transplant/golfball/model/m_pocketgolfball/c00/model.nuanmb",
+      "effect/fighter/murabito/transplant/golfball/model/m_pocketgolfball/c00/model.numatb",
+      "effect/fighter/murabito/transplant/golfball/model/m_pocketgolfball/c00/model.numdlb",
+      "effect/fighter/murabito/transplant/golfball/model/m_pocketgolfball/c00/model.numshb",
+      "effect/fighter/murabito/transplant/golfball/model/m_pocketgolfball/c00/model.numshexb",
+      "effect/fighter/murabito/transplant/golfball/model/m_pocketgolfball/c00/model.nusktb",
+      "effect/fighter/murabito/transplant/golfball/model/m_pocketgolfball/c00/tennis_ball_prm.nutexb",
+      "effect/fighter/murabito/transplant/golftrail/ef_golftrail.eff",
+      "effect/fighter/murabito/transplant/golftrail/model/m_pocketgolfstrip/c00/golf_ribbon_white.nutexb",
+      "effect/fighter/murabito/transplant/golftrail/model/m_pocketgolfstrip/c00/model.nuanmb",
+      "effect/fighter/murabito/transplant/golftrail/model/m_pocketgolfstrip/c00/model.numatb",
+      "effect/fighter/murabito/transplant/golftrail/model/m_pocketgolfstrip/c00/model.numdlb",
+      "effect/fighter/murabito/transplant/golftrail/model/m_pocketgolfstrip/c00/model.numshb",
+      "effect/fighter/murabito/transplant/golftrail/model/m_pocketgolfstrip/c00/model.numshexb",
+      "effect/fighter/murabito/transplant/golftrail/model/m_pocketgolfstrip/c00/model.nusktb"
+    ]
+  }
+}
