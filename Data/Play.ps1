@@ -89,8 +89,28 @@ function Test-ProdKeys($path) {
     if (![IO.File]::Exists($path)) {return $false}
     return [bool](Select-String -LiteralPath $path -Pattern '^\s*header_key\s*=\s*[a-fA-F0-9]{64}\s*$' -Quiet)
 }
+function Ensure-PlayShortcut {
+    $root = Split-Path -Parent $PSScriptRoot
+    $shortcut = Join-Path $root 'Ultimate +.lnk'
+    if ([IO.File]::Exists($shortcut)) {return}
+    $shell = New-Object -ComObject WScript.Shell
+    try {
+        $link = $shell.CreateShortcut($shortcut)
+        $link.TargetPath = Join-Path $root 'Play Ultimate+.cmd'
+        $link.WorkingDirectory = $root
+        $link.IconLocation = (Join-Path $PSScriptRoot 'UltimatePlus.ico') + ',0'
+        $link.Description = 'Play Ultimate+'
+        $link.Save()
+        $answer = [Windows.Forms.MessageBox]::Show('Would you also like an Ultimate + shortcut on your desktop?', 'Ultimate+', [Windows.Forms.MessageBoxButtons]::YesNo, [Windows.Forms.MessageBoxIcon]::Question)
+        if ($answer -eq [Windows.Forms.DialogResult]::Yes) {
+            $desktop = [Environment]::GetFolderPath('DesktopDirectory')
+            [IO.File]::Copy($shortcut, (Join-Path $desktop 'Ultimate +.lnk'), $true)
+        }
+    } finally {[void][Runtime.InteropServices.Marshal]::FinalReleaseComObject($shell)}
+}
 function Play {
     if (![IO.File]::Exists($exe)) {throw 'Extract the complete Ultimate+ folder before running Play.'}
+    Ensure-PlayShortcut
     foreach ($instance in Get-Process -Name 'eden','eden-cli' -ErrorAction SilentlyContinue) {
         if (!$instance.HasExited) {
             Write-Host "Closing $($instance.ProcessName) (PID $($instance.Id))..."
