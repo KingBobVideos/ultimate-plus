@@ -92,13 +92,24 @@ function Test-ProdKeys($path) {
 function Ensure-PlayShortcut {
     $root = Split-Path -Parent $PSScriptRoot
     $shortcut = Join-Path $root 'Ultimate +.lnk'
-    if ([IO.File]::Exists($shortcut)) {return}
+    if ([IO.File]::Exists($shortcut)) {
+        $shell = New-Object -ComObject WScript.Shell
+        foreach ($existing in @($shortcut, (Join-Path ([Environment]::GetFolderPath('DesktopDirectory')) 'Ultimate +.lnk'))) {
+            if ([IO.File]::Exists($existing)) {
+                $link = $shell.CreateShortcut($existing)
+                $link.IconLocation = (Join-Path $PSScriptRoot 'UltimatePlusMetal.ico') + ',0'
+                $link.Save()
+            }
+        }
+        [void][Runtime.InteropServices.Marshal]::FinalReleaseComObject($shell)
+        return
+    }
     $shell = New-Object -ComObject WScript.Shell
     try {
         $link = $shell.CreateShortcut($shortcut)
         $link.TargetPath = Join-Path $root 'Play Ultimate+.cmd'
         $link.WorkingDirectory = $root
-        $link.IconLocation = (Join-Path $PSScriptRoot 'UltimatePlus.ico') + ',0'
+        $link.IconLocation = (Join-Path $PSScriptRoot 'UltimatePlusMetal.ico') + ',0'
         $link.Description = 'Play Ultimate+'
         $link.Save()
         $answer = [Windows.Forms.MessageBox]::Show('Would you also like an Ultimate + shortcut on your desktop?', 'Ultimate+', [Windows.Forms.MessageBoxButtons]::YesNo, [Windows.Forms.MessageBoxIcon]::Question)

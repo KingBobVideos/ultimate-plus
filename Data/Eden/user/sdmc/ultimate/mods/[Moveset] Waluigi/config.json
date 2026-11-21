@@ -855,7 +855,10 @@
       "fighter/dolly/motion/body/c120/waluigi_ball_toss_air.nuanmb",
       "fighter/dolly/model/tossball/c120/golf_ribbon_white.nutexb",
       "fighter/dolly/model/tossball/c120/golf_ball_col.nutexb",
-      "fighter/dolly/model/tossball/c120/golf_ball_nor.nutexb"
+      "fighter/dolly/model/tossball/c120/golf_ball_nor.nutexb",
+      "fighter/dolly/motion/body/c120/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c120/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c120/wah_uptilt3.nuanmb"
     ],
     "fighter/dolly/result/c120": [],
     "fighter/dolly/movie/c120": [],
@@ -1428,7 +1431,10 @@
       "fighter/dolly/motion/body/c121/waluigi_ball_toss_air.nuanmb",
       "fighter/dolly/model/tossball/c121/golf_ribbon_white.nutexb",
       "fighter/dolly/model/tossball/c121/golf_ball_col.nutexb",
-      "fighter/dolly/model/tossball/c121/golf_ball_nor.nutexb"
+      "fighter/dolly/model/tossball/c121/golf_ball_nor.nutexb",
+      "fighter/dolly/motion/body/c121/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c121/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c121/wah_uptilt3.nuanmb"
     ],
     "fighter/dolly/result/c121": [],
     "fighter/dolly/movie/c121": [],
@@ -2001,7 +2007,10 @@
       "fighter/dolly/motion/body/c122/waluigi_ball_toss_air.nuanmb",
       "fighter/dolly/model/tossball/c122/golf_ribbon_white.nutexb",
       "fighter/dolly/model/tossball/c122/golf_ball_col.nutexb",
-      "fighter/dolly/model/tossball/c122/golf_ball_nor.nutexb"
+      "fighter/dolly/model/tossball/c122/golf_ball_nor.nutexb",
+      "fighter/dolly/motion/body/c122/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c122/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c122/wah_uptilt3.nuanmb"
     ],
     "fighter/dolly/result/c122": [],
     "fighter/dolly/movie/c122": [],
@@ -2580,7 +2589,10 @@
       "fighter/dolly/motion/body/c123/waluigi_ball_toss_air.nuanmb",
       "fighter/dolly/model/tossball/c123/golf_ribbon_white.nutexb",
       "fighter/dolly/model/tossball/c123/golf_ball_col.nutexb",
-      "fighter/dolly/model/tossball/c123/golf_ball_nor.nutexb"
+      "fighter/dolly/model/tossball/c123/golf_ball_nor.nutexb",
+      "fighter/dolly/motion/body/c123/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c123/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c123/wah_uptilt3.nuanmb"
     ],
     "fighter/dolly/result/c123": [],
     "fighter/dolly/movie/c123": [],
@@ -3162,7 +3174,10 @@
       "fighter/dolly/motion/body/c124/waluigi_ball_toss_air.nuanmb",
       "fighter/dolly/model/tossball/c124/golf_ribbon_white.nutexb",
       "fighter/dolly/model/tossball/c124/golf_ball_col.nutexb",
-      "fighter/dolly/model/tossball/c124/golf_ball_nor.nutexb"
+      "fighter/dolly/model/tossball/c124/golf_ball_nor.nutexb",
+      "fighter/dolly/motion/body/c124/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c124/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c124/wah_uptilt3.nuanmb"
     ],
     "fighter/dolly/result/c124": [],
     "fighter/dolly/movie/c124": [],
@@ -3738,7 +3753,10 @@
       "fighter/dolly/motion/body/c125/waluigi_ball_toss_air.nuanmb",
       "fighter/dolly/model/tossball/c125/golf_ribbon_white.nutexb",
       "fighter/dolly/model/tossball/c125/golf_ball_col.nutexb",
-      "fighter/dolly/model/tossball/c125/golf_ball_nor.nutexb"
+      "fighter/dolly/model/tossball/c125/golf_ball_nor.nutexb",
+      "fighter/dolly/motion/body/c125/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c125/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c125/wah_uptilt3.nuanmb"
     ],
     "fighter/dolly/result/c125": [],
     "fighter/dolly/movie/c125": [],
@@ -4317,7 +4335,10 @@
       "fighter/dolly/motion/body/c126/waluigi_ball_toss_air.nuanmb",
       "fighter/dolly/model/tossball/c126/golf_ribbon_white.nutexb",
       "fighter/dolly/model/tossball/c126/golf_ball_col.nutexb",
-      "fighter/dolly/model/tossball/c126/golf_ball_nor.nutexb"
+      "fighter/dolly/model/tossball/c126/golf_ball_nor.nutexb",
+      "fighter/dolly/motion/body/c126/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c126/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c126/wah_uptilt3.nuanmb"
     ],
     "fighter/dolly/result/c126": [],
     "fighter/dolly/movie/c126": [],
@@ -4896,7 +4917,10 @@
       "fighter/dolly/motion/body/c127/waluigi_ball_toss_air.nuanmb",
       "fighter/dolly/model/tossball/c127/golf_ribbon_white.nutexb",
       "fighter/dolly/model/tossball/c127/golf_ball_col.nutexb",
-      "fighter/dolly/model/tossball/c127/golf_ball_nor.nutexb"
+      "fighter/dolly/model/tossball/c127/golf_ball_nor.nutexb",
+      "fighter/dolly/motion/body/c127/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c127/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c127/wah_uptilt3.nuanmb"
     ],
     "fighter/dolly/result/c127": [],
     "fighter/dolly/movie/c127": [],
@@ -10988,7 +11012,28 @@
       "fighter/dolly/motion/body/c124/waluigi_attack_lw3.nuanmb",
       "fighter/dolly/motion/body/c125/waluigi_attack_lw3.nuanmb",
       "fighter/dolly/motion/body/c126/waluigi_attack_lw3.nuanmb",
-      "fighter/dolly/motion/body/c127/waluigi_attack_lw3.nuanmb"
+      "fighter/dolly/motion/body/c127/waluigi_attack_lw3.nuanmb",
+      "fighter/dolly/motion/body/c121/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c121/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c121/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c122/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c122/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c122/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c123/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c123/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c123/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c124/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c124/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c124/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c125/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c125/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c125/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c126/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c126/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c126/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c127/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c127/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c127/wah_uptilt3.nuanmb"
     ],
     "fighter/dolly/model/tossball/c120/dark_model.numatb": [
       "fighter/dolly/model/tossball/c121/dark_model.numatb",
@@ -11520,6 +11565,33 @@
       "fighter/shizue/model/diceblock/c05/dice_num_nor_trans.nutexb",
       "fighter/shizue/model/diceblock/c06/dice_num_nor_trans.nutexb",
       "fighter/shizue/model/diceblock/c07/dice_num_nor_trans.nutexb"
+    ],
+    "fighter/dolly/motion/body/c120/wah_uptilt1.nuanmb": [
+      "fighter/dolly/motion/body/c121/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c122/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c123/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c124/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c125/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c126/wah_uptilt1.nuanmb",
+      "fighter/dolly/motion/body/c127/wah_uptilt1.nuanmb"
+    ],
+    "fighter/dolly/motion/body/c120/wah_uptilt2.nuanmb": [
+      "fighter/dolly/motion/body/c121/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c122/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c123/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c124/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c125/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c126/wah_uptilt2.nuanmb",
+      "fighter/dolly/motion/body/c127/wah_uptilt2.nuanmb"
+    ],
+    "fighter/dolly/motion/body/c120/wah_uptilt3.nuanmb": [
+      "fighter/dolly/motion/body/c121/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c122/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c123/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c124/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c125/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c126/wah_uptilt3.nuanmb",
+      "fighter/dolly/motion/body/c127/wah_uptilt3.nuanmb"
     ]
   }
 }
