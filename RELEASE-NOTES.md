@@ -1,7 +1,7 @@
-# November 20 build update
+# November 22 build update
 
-Includes the latest Lab gameplay and presentation changes for Super Mario and Waluigi, saved Cappy placements, possession accessory visibility changes, Paper Mario v1.2, and the brushed-metal launcher shortcut icon.
+Fixed missing effects/sound/expression script slots on Mario's custom possession-capture motion, three Waluigi ball motions, and four Bandana Dee charge/hold/walk motions. Original animation poses and visibility tracks are preserved.
 
-Stacked Echoes and the Super Mario possession plugin are enabled. Temporary diagnostic settings have been restored.
+Repeated capture tests, including timer expiry and taunt exits, no longer produced the invalid reads at 0x19/0x1A. Follow-up Waluigi and Dee testing also showed none of those reads. The separate low-address loading errors remain under investigation and were also observed with all added mods removed.
 
-Known investigation: Eden logs invalid low-address memory accesses during loading, including with the possession plugin disabled. Similar writes exist in older logs from before the Smashline 2 migration. The responsible code and practical impact remain unconfirmed; the build is playable in user testing.
+All mod folders and stacked Echoes are enabled. No temporary diagnostic bypasses are included.
